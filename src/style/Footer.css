@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid rgb(56, 56, 56); */
+  background: rgba(0, 0, 0, 0.105);
+  position: absolute;
+  /* height: 100px; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  font-size: 14px;
+  color: grey;
+}
+
+.social-icons {
+  display: flex;
+  color: #6ddbb6;
+  margin: 20px 0;
+  /* flex-direction: column; */
+  justify-content: center;
+}
