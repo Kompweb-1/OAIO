@@ -1,0 +1,23 @@
+.subscribe {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  /* border: 2px solid red; */
+  /* width: 460px; */
+}
+.subscribe input {
+  font-size: calc(14px + 0.3vmin);
+  color: rgb(255, 255, 255);
+  /* padding-left: 10px; */
+  /* background: rgba(196, 195, 195, 0); */
+  border-bottom: 1px solid #6ddbb6;
+}
+.subscribe label {
+  font-size: calc(14px + 0.3vmin);
+  letter-spacing: 0.1em;
+  color: #b5b5b557;
+  padding-left: 10px;
+}
+.Error {
+  color: red;
+}

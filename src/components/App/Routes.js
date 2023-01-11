@@ -10,6 +10,7 @@ import LogIn from "../../Pages/LogIn";
 import SignUp from "../../Pages/SignUp";
 import { DarkModeContext } from "../context/darkModeContext";
 import { AuthContext } from "../context/AuthContext";
+import Contact from "../../Pages/Contact";
 
 function App() {
   // const { token, setToken } = useToken();
@@ -34,6 +35,8 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route path='/login' element={<LogIn />} />
           <Route path='/signup' element={<SignUp />} />
+          <Route path='/contact' element={<Contact />} />
+
           {/* <RequireAuth> */}
           <Route
             index

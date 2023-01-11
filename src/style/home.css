@@ -1,0 +1,120 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.title {
+  /* border: 1px solid #ffffff86; */
+  width: 360px;
+}
+
+.title h2 {
+  color: transparent;
+  text-shadow: 0 0 4px rgb(126, 126, 126);
+  /* font-style: bold; */
+  font-weight: 900;
+  /* color: #fcfcfcfb; */
+  font-size: calc(21px + 1vmin);
+  /* text-shadow: 3px 3px 0px #00000000, 0px -20px 4px rgb(0, 0, 0); */
+  letter-spacing: 0.2em;
+  text-align: center;
+  /* padding: 200px; */
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* color: #ffffff; */
+  /* margin: 10px 20px; */
+  /* border: 1px solid #03c9c9a5; */
+  /* box-shadow: 0px 1px 2px #000000, 0px 1px 12px #7b7b7b4a, 0px -1px 2px #000000; */
+  /* box-shadow: inset 4px 0px 0px -2px #000000, inset 0px 0px 2px #676767; */
+  /* background: #0000004f; */
+  /* border-radius: 19px; */
+  /* box-shadow: inset -15px 15px 15px #3b41436e, inset 15px -15px 15px #4f595b72; */
+  /* box-shadow: 4px 0px 240px #61fbdf43, -4px 0px 240px #61fbe63b; */
+  /* padding: 30px 28px; */
+  /* margin-top: 200px; */
+}
+
+.info-card {
+  border: 6px solid #02f5b0f9;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  box-shadow: 4px 0px 200px #61fbdf43, -4px 0px 200px #61fbe63b;
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  padding: 0 24px;
+  margin-bottom: 20px;
+}
+
+.info-card p {
+  font-size: calc(12px + 0.3vmin);
+  letter-spacing: 0.1em;
+  line-height: 2;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 2px 20px rgba(0, 0, 0, 0.221);
+  }
+}
+
+.pulse {
+  animation: pulse 2500ms infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #393939;
+  }
+  50% {
+    box-shadow: 0 0 0 1px #7fffea70;
+  }
+  100% {
+    box-shadow: 0 0 0 1px #fbb32f01;
+  }
+}
+
+.pulse-btn {
+  animation: pulse 2000ms infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #323232;
+  }
+  50% {
+    box-shadow: 0 1px 0px 2px #61fbe13b;
+  }
+  100% {
+    box-shadow: 0 0 0 1px #00000096;
+  }
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .title {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .title h2 {
+    font-size: calc(21px + 0.5vmin);
+  }
+
+  .info-card {
+    font-size: calc(14px + 0.2vmin);
+    padding: 0 28px;
+    width: 300px;
+    height: 300px;
+  }
+}

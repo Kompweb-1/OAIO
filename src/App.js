@@ -1,16 +1,20 @@
 import "./style/App.css";
 import Routes from "./components/App/Routes";
-// import NavBar from "./components/App/NavBar";
 import Footer from "./components/ui/Footer";
+import Logo from "./components/ui/Logo";
+// import NavBar from "./components/ui/NavBar";
 
 function App() {
   return (
     <>
-      <div className='App'>
-        {/* <NavBar /> */}
-        <Routes />
-        <Footer />
+      {/* <NavBar /> */}
+      <div className='App-header'>
+        <Logo />
       </div>
+      <div className='App'>
+        <Routes />
+      </div>
+      <Footer />
     </>
   );
 }

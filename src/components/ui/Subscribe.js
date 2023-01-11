@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../style/App.css";
+import "../../style/subscribe.css";
 import TextField from "@mui/material/TextField";
 
 function Subscribe() {
@@ -30,7 +30,7 @@ function Subscribe() {
       setError(err);
     }
   };
-  // fetch("http://localhost:8080/login", {
+  // fetch("http://localhost:8080/subscribe", {
   //   method: "POST",
   //   headers: {
   //     "Content-Type": "application/json",
@@ -40,7 +40,7 @@ function Subscribe() {
   // .then((data) => console.log(data));
 
   // Retrieve the stored email addresses
-  // fetch("http://localhost:8080/login").then((response) => response.json());
+  // fetch("http://localhost:8080/subscribe").then((response) => response.json());
   // .then((data) => console.log(data));
 
   // const clearInput = () => {
@@ -51,9 +51,6 @@ function Subscribe() {
     <>
       <div className='subscribe'>
         <form onSubmit={handleChange}>
-          <h6 className='stay-up'>
-            Subscribe and stay up to date on development
-          </h6>
           <TextField
             id='standard-basic'
             type='text'
@@ -63,17 +60,18 @@ function Subscribe() {
             onChange={(e) => setValue(e.target.value)}
             disabled={status === "submitting"}
           />
-
           <button
-          // type='button'
-          // onClick={clearInput}
-          // disabled={error !== null || value === 0 || status === "submitting"}
-          >
+            // type='button'
+            // onClick={clearInput}
+            // disabled={error !== null || value === 0 || status === "submitting"}
+            disabled={
+              error !== null && <p className='Error'>{error.message}</p>
+            }>
             SUBMIT
           </button>
-          {error !== null && <p className='Error'>{error.message}</p>}
         </form>
       </div>
+      <h6>Stay up to date on development</h6>
     </>
   );
 }

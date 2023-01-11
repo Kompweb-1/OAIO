@@ -1,165 +1,27 @@
 .App {
   text-align: center;
-  /* font-family: Roboto; */
-  width: 100%;
-  min-height: calc(100vh - 60px);
-  /* 100vh is the full viewport height, 50px is the footer height */
-  position: relative;
-}
-
-.logo {
-  margin-bottom: 100px;
-}
-
-.logo h1 {
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-.logo h1::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 1;
-  top: -8vmin;
-  width: 12vmin;
-  height: 12vmin;
-  border-radius: 50%;
-  border: 0.2vmin dashed #ffffff;
-  box-sizing: border-box;
-}
-
-/* .login-wrapper { */
-/* padding: 20px; */
-/* display: flex; */
-/* flex-direction: column; */
-/* align-items: center; */
-/* } */
-/* 
-.container h2 {
-  margin: 0 100px;
-} */
-
-.home-card {
-  /* font-family: Roboto; */
-  color: rgb(208, 208, 208);
-  font-size: calc(14px + 0.5vmin);
-  margin: 10px;
-  /* border: 1px solid #7fffd4; */
-  /* box-shadow: 0px 2px #686868, 0px -2px 12px #000000, 2px -2px 2px #9a9a9a; */
-  box-shadow: inset 0px 0px 1px #676767, inset 0px 0px 1px #676767;
-  border-radius: 6px;
-  padding: 30px 46px;
-  line-height: 1.5;
-}
-.subscribe {
-  display: flex;
-  justify-content: center;
-  /* margin-top: 10px; */
-}
-.subscribe input {
-  /* text-align: center; */
-  /* color: rgb(255, 255, 255); */
-  /* padding-left: 10px; */
-  /* background: rgba(196, 195, 195, 0); */
-  border-bottom: 1px solid #7fffd4;
-}
-.subscribe label {
-  font-size: 14px;
-  letter-spacing: 0.1em;
-  color: #b5b5b557;
-  padding-left: 10px;
-}
-
-.subscribe button {
-  font-size: 10px;
-  /* font-weight: 400; */
-  color: #7fffd4;
-  letter-spacing: 0.2em;
-  /* height: 30px; */
-  width: 94px;
-  margin-top: 23px;
-  margin-left: 6px;
-  cursor: pointer;
-  /* border: 1px solid #7fffd493; */
-  /* border-radius: 50%; */
-  background: linear-gradient(225deg, #03f8e3, #000000c1, #555555);
-  box-shadow: 0px 0px 1px #7fffd493, 0px 0px 1px #7fffd493;
-  /* background: rgba(255, 255, 255, 0); */
-  border-radius: 25px;
-}
-
-.stay-up {
-  /* text-align: left; */
-  font-size: 10px;
-  /* padding-left: 32px; */
-  /* margin-top: 10px; */
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  /* min-height: calc(100vh - 60px); */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Container {
-  width: 330px;
-  /* margin-top: -20px; */
-  /* height: 600px; */
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  min-height: calc(100vh - 100px);
+  /* 100vh is the full viewport height, 60px is the footer height */
 }
 
 .App .App-btn {
-  /* font-size: 10px; */
-  /* border: 1px solid #00dbb7; */
   border-radius: 50px;
-  color: #00dbb7;
-  width: 34px;
-  height: 68px;
+  color: #6ddbb6;
+  width: 46px;
+  height: 88px;
   margin: 20px 0;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgb(43, 43, 43) 0%,
+    rgb(69, 69, 69) 0%,
     #000000 50%,
-    #323232 100%
+    #595959 100%
   );
   cursor: pointer;
 }
-/* 
-.App .App-btn-dash {
-  background-color: black;
-  font-size: 10px;
-  border: 1px solid #00dbb7;
-  border-radius: 50px;
-  color: #00dbb7;
-  width: 40px;
-  height: 38px;
-  margin: 20px 0;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgb(117, 117, 117) 0%,
-    #000000 50%,
-    #00dbb7 100%
-  );
-  cursor: pointer;
-} */
 
 .bounce {
-  color: #7fffd4;
+  color: #6ddbb6;
   display: inline-block;
   position: relative;
   -moz-animation: bounce 3s infinite linear;

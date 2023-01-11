@@ -1,14 +1,11 @@
 import React from "react";
-import "../../style/Navbar.css";
-import TemporaryDrawer from "../../components/utils/Drawer";
+import "../../style/navbar.css";
 
 function NavBar() {
   return (
     <div className='navbar'>
       <ul>
-        <li>
-          <TemporaryDrawer />
-        </li>
+        <li>Menu</li>
       </ul>
     </div>
   );

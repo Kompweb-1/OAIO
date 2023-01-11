@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
 }
+
 .bottom {
   -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
   box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
@@ -14,12 +15,12 @@
   justify-content: space-around;
 }
 
-h1 {
+/* h1 {
   color: lightgray;
   font-size: 20px;
-}
+} */
 .box {
-  display: flex;
+  /* display: flex; */
   /* width: 100%; */
   /* flex: 1; */
   text-align: center;
@@ -57,19 +58,4 @@ input {
   padding: 5px;
   border: none;
   border-bottom: 1px solid gray;
-}
-button {
-  width: 150px;
-  padding: 10px;
-  border: none;
-  background-color: teal;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  margin-top: 10px;
-
-  /* &:disabled {
-    background-color: rgba(3, 92, 92, 0.322);
-    cursor: not-allowed;
-  } */
 }

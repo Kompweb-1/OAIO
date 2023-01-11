@@ -1,0 +1,114 @@
+.logo {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 25%; */
+  /* margin-bottom: 20px; */
+  height: 260px;
+}
+.logo a {
+  text-decoration: none;
+}
+
+.logo h1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* border: 2px solid red; */
+  /* height: 200px; */
+}
+
+.logo h1::before {
+  /* height: 160px; */
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 4vmin;
+  width: 12vmin;
+  height: 12vmin;
+  border-radius: 50%;
+  border: 0.2vmin dashed #6ddbb6;
+}
+
+em.planet {
+  -webkit-animation: planet-rotate 10s linear infinite;
+  animation: planet-rotate 10s linear infinite;
+  /* position: relative; */
+}
+
+/* em.planet::before { */
+/* content: ""; */
+/* position: absolute; */
+/* top: 1vmin; */
+/* left: 0.9vmin; */
+/* z-index: -1; */
+/* width: 2.5vmin; */
+/* height: 2.5vmin; */
+/* border-radius: 50%; */
+/* background: #2c2c2c; */
+/* } */
+
+em.planet.left {
+  transform-origin: 8vmin 2vmin;
+  border-radius: 50%;
+  /* background: linear-gradient(225deg, #000000, #88ffe3); */
+  /* box-shadow: -1px 2px 12px #6ddbb6, 1px -2px 12px #91fff2; */
+  box-shadow: 0px 2px 1px #ff0303, 1px -2px 2px #08eb1b;
+}
+
+em.planet.right {
+  transform-origin: -3.8vmin 2vmin;
+  border-radius: 50%;
+  /* background: linear-gradient(225deg, #72e6bf, #88ffe3); */
+  /* box-shadow: -1px 2px 12px #6ddbb6, 1px -2px 12px #91fff2; */
+  box-shadow: 0px 2px 1px #eaaa08fe, 1px -2px 2px #05d2f6;
+}
+
+/* .right {
+  box-shadow: 0px 2px 1px #eaaa08fe, 1px -2px 2px #05d2f6;
+} */
+/* .left {
+  box-shadow: 0px 2px 1px #ff0303, 1px -2px 2px #08eb1b;
+} */
+@-webkit-keyframes planet-rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+  }
+}
+
+@keyframes planet-rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .logo {
+    /* background-color: red; */
+    height: 100px;
+  }
+  .Title h2 {
+    margin: 20px;
+  }
+
+  .logo h1::before {
+    top: -4vmin;
+    width: 24vmin;
+    height: 24vmin;
+    border: 0.4vmin solid #6ddbb6;
+  }
+  em.planet.left {
+    transform-origin: 16vmin 4vmin;
+    /* background: linear-gradient(225deg, #000000, #88ffe3); */
+    box-shadow: -1px 2px 12px #6ddbb6, 1px -2px 12px #91fff2;
+  }
+
+  em.planet.right {
+    transform-origin: -7.4vmin 4vmin;
+    /* background: linear-gradient(225deg, #72e6bf, #88ffe3); */
+    box-shadow: -1px 2px 12px #6ddbb6, 1px -2px 12px #91fff2;
+  }
+}
