@@ -3,14 +3,13 @@
   justify-content: center;
   margin-top: 100px;
   /* border: 2px solid red; */
-  /* width: 460px; */
 }
 .subscribe input {
   font-size: calc(14px + 0.3vmin);
   color: rgb(255, 255, 255);
-  /* padding-left: 10px; */
   /* background: rgba(196, 195, 195, 0); */
   border-bottom: 1px solid #6ddbb6;
+  width: 220px;
 }
 .subscribe label {
   font-size: calc(14px + 0.3vmin);
@@ -20,4 +19,14 @@
 }
 .Error {
   color: red;
+}
+
+@media (max-width: 480px) {
+  .subscribe {
+    margin: 0;
+    padding: 0;
+  }
+  .subscribe button {
+    width: 80px;
+  }
 }

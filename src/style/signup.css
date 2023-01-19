@@ -1,36 +1,58 @@
-.new {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.bottom {
-  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-  padding: 10px;
-  margin: 20px;
+.signup-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  /* border: 2px solid red; */
+  /* width: min-content; */
+  /* background-color: rgb(36, 167, 80); */
 }
 
-/* h1 {
-  color: lightgray;
-  font-size: 20px;
-} */
-.box {
-  /* display: flex; */
-  /* width: 100%; */
-  /* flex: 1; */
-  text-align: center;
+.bottom {
+  /* -webkit-box-shadow: 2px 4px 4px 1px rgba(252, 0, 0, 0.965); */
+  box-shadow: 0px 0px 10px 1px rgba(201, 201, 201, 0.47);
+  /* background-color: rgb(64, 36, 167); */
+  /* border: 2px solid red; */
+  border-radius: 12px;
 }
-img {
+
+.image-box {
+  /* border: 2px solid red; */
+  margin-top: 40px;
+  /* padding: 10px; */
+  /* background-color: rgb(167, 36, 36); */
+  /* width: 300px; */
+  /* flex: 1; */
+  /* text-align: center; */
+}
+.signup-box img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  /* background-color: black; */
+  /* width: 600px; */
+  /* margin: 10px; */
+}
+.formInput input {
+  background-color: rgb(194, 194, 194);
+  /* border-bottom: 1px solid #ffffff; */
+  border: none;
+  border-radius: 6px;
+  margin: 10px;
+  width: 300px;
+  /* padding: 20px; */
+}
+.signup-box form {
+  /* background-color: rgb(167, 36, 36); */
+  margin: 20px;
+  padding: 20px;
 }
 /* .right {
   flex: 2;
@@ -49,13 +71,14 @@ img {
   align-items: center;
   gap: 10px;
 } */
-/* .icon {
+.icon {
   cursor: pointer;
-} */
-
-input {
-  width: 100%;
-  padding: 5px;
-  border: none;
-  border-bottom: 1px solid gray;
+  color: rgb(52, 168, 137);
 }
+
+/* .signup-box input { */
+/* width: 100%; */
+/* padding: 10px; */
+/* border: none; */
+/* border-bottom: 1px solid gray; */
+/* } */

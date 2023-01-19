@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: rgb(20, 19, 36);
 }
 
 body {
@@ -8,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #282c34;
+  /* background: #282c34; */
 }
 
 code {
@@ -197,15 +198,9 @@ p {
   color: #ffffffce;
   letter-spacing: 0.1em;
 }
-em {
-  /* font-family: "Josefin Sans", sans-serif; */
-  color: #6ddbb6;
-  top: 8vmin;
-  font-size: 3vmin;
-  position: relative;
-  font-style: normal;
-  width: 4vmin;
-  text-align: center;
+
+input {
+  padding: 10px;
 }
 
 button {

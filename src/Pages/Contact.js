@@ -2,6 +2,15 @@ import React from "react";
 import "../style/contact.css";
 
 const Contact = () => {
+  function submitForm(e) {
+    e.preventDefault();
+    console.log(123);
+  }
+
+  // const onFinish = (values) => {
+  //   console.log(values);
+  // };
+
   return (
     <div className='container'>
       <h1 className='brand'>
@@ -11,7 +20,11 @@ const Contact = () => {
         <div className='contact'>
           <h4>Email Us</h4>
           <div className='alert'>Your message has been sent</div>
-          <form id='contactForm'>
+          <form
+            id='contactForm'
+            onSubmit={submitForm}
+            // onFinish={onFinish}
+          >
             <p>
               <label>Name</label>
               <input type='text' name='name' id='name' required></input>

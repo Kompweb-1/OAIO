@@ -1,13 +1,15 @@
 .dashboard {
+  /* background-color: rgb(20, 19, 36); */
+
   /* min-height: calc(80vh - 100px); */
   /* display: flex; */
   /* flex-direction: column; */
   /* max-width: 600px; */
-  /* text-align: center; */
+  /* text-align: left; */
   /* align-items: center; */
   /* justify-content: space-around; */
   /* border: 2px solid red; */
-  /* width: auto; */
+  width: 100%;
   /* overflow: hidden; */
   /* left: 0; */
   /* right: 0; */
@@ -24,8 +26,8 @@
   align-items: center;
   /* width: 90%; */
   height: 400px;
-  margin: 10px;
-  background: #000000;
+  /* margin: 10px; */
+  /* background: #000000; */
   /* border: 2px solid #000000; */
   box-shadow: 0px 2px 0px 0px #6ddbb6, 1px -2px 12px #000000;
   /* box-shadow: 0px 0px 2px 0px #ffffff, 2px 0px 0px #494949; */

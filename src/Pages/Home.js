@@ -14,7 +14,7 @@ function App() {
         </div>
         <header className='App-body'>
           <div className='home-card'>
-            <div className='info-card'>
+            <div className='card'>
               <p>
                 We supply a series of A.I. principles and practical patterns
                 connected with high quality algebric algorithmically resources

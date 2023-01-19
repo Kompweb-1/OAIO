@@ -1,3 +1,6 @@
+// TO DO:
+// npm formik yup - validate "form" and authentificate "user"
+
 import "../style/signup.css";
 import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
 import { useEffect, useState } from "react";
@@ -14,52 +17,60 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 
 import { useNavigate } from "react-router-dom";
 
-const New = ({ inputs, title }) => {
+const New = ({ input, title }) => {
   const [file, setFile] = useState("");
   const [data, setData] = useState({});
+  // const [errors, setErrors] = useState({});
+  // const [isSubmitting, setIsSubmitting] = useState(false);
+
   // const [per, setPerc] = useState(null);
   const navigate = useNavigate();
 
+  // useEffect(() => {
+  //   if (Object.keys(errors).length === 0 && isSubmitting) {
+  //     // submitForm();
+  //     setErrors();
+  //   }
+  // }, [errors]);
+
   useEffect(() => {
-    const uploadFile = () => {
-      const name = new Date().getTime() + file.name;
-
-      console.log(name);
-      // const storageRef = ref(storage, file.name);
-      // const uploadTask = uploadBytesResumable(storageRef, file);
-
-      // uploadTask.on(
-      //   "state_changed",
-      //   (snapshot) => {
-      //     const progress =
-      //       (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-      //     console.log("Upload is " + progress + "% done");
-      //     setPerc(progress);
-      //     switch (snapshot.state) {
-      //       case "paused":
-      //         console.log("Upload is paused");
-      //         break;
-      //       case "running":
-      //         console.log("Upload is running");
-      //         break;
-      //       default:
-      //         break;
-      //     }
-      //   },
-      //   (error) => {
-      //     console.log(error);
-      //   },
-      //   () => {
-      //     getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
-      //       setData((prev) => ({ ...prev, img: downloadURL }));
-      //     });
-      //   }
-      // );
-    };
-    file && uploadFile();
+    // const uploadFile = () => {
+    // const name = new Date().getTime() + file.name;
+    // console.log(name);
+    // const storageRef = ref(storage, file.name);
+    // const uploadTask = uploadBytesResumable(storageRef, file);
+    // uploadTask.on(
+    //   "state_changed",
+    //   (snapshot) => {
+    //     const progress =
+    //       (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+    //     console.log("Upload is " + progress + "% done");
+    //     setPerc(progress);
+    //     switch (snapshot.state) {
+    //       case "paused":
+    //         console.log("Upload is paused");
+    //         break;
+    //       case "running":
+    //         console.log("Upload is running");
+    //         break;
+    //       default:
+    //         break;
+    //     }
+    //   },
+    //   (error) => {
+    //     console.log(error);
+    //   },
+    //   () => {
+    //     getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+    //       setData((prev) => ({ ...prev, img: downloadURL }));
+    //     });
+    //   }
+    // );
+    // };
+    // file && uploadFile();
   }, [file]);
 
-  console.log(data);
+  // console.log(data);
 
   const handleInput = (e) => {
     const id = e.target.id;
@@ -87,11 +98,11 @@ const New = ({ inputs, title }) => {
   };
   // console.log(per);
   return (
-    <div className='new'>
+    <div className='signup-box'>
       {/* <h1>{title}</h1> */}
       <h1>Sign Up</h1>
       <div className='bottom'>
-        <div className='box'>
+        <div className='image-box'>
           <img
             src={
               file
@@ -101,7 +112,7 @@ const New = ({ inputs, title }) => {
             alt=''
           />
         </div>
-        <div className='right'>
+        <div className='signup-form'>
           <form onSubmit={handleAdd}>
             <div className='formInput'>
               <label htmlFor='file'>
