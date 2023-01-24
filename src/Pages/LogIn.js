@@ -58,7 +58,7 @@ export default function Login() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </label>
-        <div style={{ marginTop: 10 }}>
+        <div style={{ marginTop: 20 }}>
           <button
             type='submit'
             disabled={email === 0 || status === "submitting"}>

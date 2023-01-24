@@ -6,20 +6,34 @@
 }
 
 .title {
+  /* text-align: center; */
   /* border: 1px solid #ffffff86; */
-  width: 360px;
+  /* width: 360px; */
+  height: 400px;
+  /* width: 80%; */
 }
 
 .title h2 {
   color: transparent;
-  text-shadow: 0 0 4px rgb(90, 125, 120);
+  text-shadow: 0 0 14px rgb(90, 125, 120);
   /* font-style: bold; */
   font-weight: 900;
   /* color: #fcfcfcfb; */
-  font-size: calc(26px + 1vmin);
+  font-size: calc(42px + 1vmin);
   /* text-shadow: 3px 3px 0px #00000000, 0px -20px 4px rgb(0, 0, 0); */
-  letter-spacing: 0.2em;
-  text-align: center;
+  letter-spacing: 0.5rem;
+  /* width: 360px; */
+  padding: 0 10rem;
+  /* margin: 0 100px; */
+}
+.title h2:hover {
+  /* text-shadow: 0 0 2px rgb(90, 125, 120); */
+  text-shadow: 3px 3px 0px rgb(90, 125, 120), 0px -2px 40px rgb(0, 0, 0);
+  font-size: calc(36px + 1vmin);
+  /* letter-spacing: 1rem; */
+  /* letter-spacing: 1rem; */
+
+  /* width: 360px; */
 }
 
 .home-card {
@@ -28,7 +42,7 @@
   align-items: center;
 }
 .card {
-  border: 1px solid #ffffff;
+  border: 2px solid #03fbc9;
   width: 360px;
   height: 360px;
   /* background: rgba(217, 217, 217, 0.58); */
@@ -47,13 +61,10 @@
 }
 
 .card:hover {
-  border: 2px solid #02f5b0f9;
+  border: 2px solid #707070f9;
   transform: scale(1.05);
   /* font-size: calc(14px + 0.5vmin); */
-  box-shadow: 4px 0px 200px #fffffff8, -4px 0px 200px #61fbe63b,
-    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
-    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
-    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset;
+  box-shadow: 4px 0px 200px #75c1bdf8, -4px 0px 200px #000000;
 }
 
 /* .card:active {
@@ -69,12 +80,12 @@
   /* font-weight: bolder; */
 }
 .App .App-btn {
+  border: 1px solid #424141;
   border-radius: 50px;
   color: #6ddbb6;
   width: 46px;
   height: 88px;
   margin: 20px 0;
-  background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
     rgb(69, 69, 69) 0%,
@@ -83,46 +94,51 @@
   );
   cursor: pointer;
 }
+.App .App-btn:hover {
+  border: 2px solid #03fbc9;
+}
 
-.pulse {
+/* .pulse {
   animation: pulse-animation 2s infinite;
 }
 @keyframes pulse-animation {
   0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.99);
   }
   100% {
-    box-shadow: 0 0 2px 20px rgba(0, 0, 0, 0.221);
+    box-shadow: 0 0 20px rgb(249, 249, 249);
   }
-}
+} */
 
+/* 
 .pulse {
-  animation: pulse 2500ms infinite;
-}
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 #393939;
-  }
-  50% {
-    box-shadow: 0 0 0 1px #7fffea70;
-  }
-  100% {
-    box-shadow: 0 0 0 1px #fbb32f01;
-  }
-}
-
-.pulse-btn {
   animation: pulse 2000ms infinite;
 }
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 #323232;
+    box-shadow: 0 0 2px #000000;
   }
   50% {
-    box-shadow: 0 1px 0px 2px #61fbe13b;
+    box-shadow: 0 0 0 4px #7fffea70;
   }
   100% {
-    box-shadow: 0 0 0 1px #00000096;
+    box-shadow: 0 0 2px #6ddbb6;
+  }
+} */
+
+.pulse {
+  animation: pulse 2000ms infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #03fbc9;
+  }
+  50% {
+    box-shadow: 0 0 200px #000000;
+  }
+  100% {
+    box-shadow: 0 0 0 1px #01ddbc;
   }
 }
 
@@ -130,10 +146,12 @@
   color: #6ddbb6;
   display: inline-block;
   position: relative;
-  -moz-animation: bounce 3s infinite linear;
+  background-color: #01ddbc00;
+  -moz-animation: bounce 1s infinite linear;
   -o-animation: bounce 1s infinite linear;
   -webkit-animation: bounce 1s infinite linear;
-  animation: bounce 1.5s infinite linear;
+  animation: bounce 1s infinite linear;
+  /* cursor: pointer; */
 }
 @-webkit-keyframes bounce {
   0% {
@@ -208,17 +226,30 @@
 
 @media (max-width: 480px) {
   .title {
-    width: 90%;
-    margin-bottom: 10px;
+    /* width: 90%; */
+    height: 280px;
+    /* margin-bottom: 10px; */
+  }
+  .title h2 {
+    font-size: calc(26px + 0.3vmin);
+    letter-spacing: 0.5rem;
+    text-shadow: 0 0 6px rgb(90, 125, 120);
+    /* padding: 0; */
+  }
+  .title h2:hover {
+    letter-spacing: 0.3rem;
+    font-size: calc(21px + 0.5vmin);
   }
 
   .card {
-    width: 320px;
-    height: 320px;
+    width: 280px;
+    height: 280px;
+    /* padding: 0; */
+    /* margin: 0; */
   }
   .card p {
     font-size: calc(12px + 0.3vmin);
-    width: 160px;
+    /* width: 160px; */
     line-height: 1.5;
   }
 }

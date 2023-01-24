@@ -7,9 +7,10 @@
 .subscribe input {
   font-size: calc(14px + 0.3vmin);
   color: rgb(255, 255, 255);
-  /* background: rgba(196, 195, 195, 0); */
+  background: rgba(196, 195, 195, 0.82);
   border-bottom: 1px solid #6ddbb6;
-  width: 220px;
+  width: 260px;
+  margin-bottom: 20px;
 }
 .subscribe label {
   font-size: calc(14px + 0.3vmin);
@@ -27,6 +28,7 @@
     padding: 0;
   }
   .subscribe button {
-    width: 80px;
+    width: auto;
+    font-size: calc(12px + 0.1vmin);
   }
 }

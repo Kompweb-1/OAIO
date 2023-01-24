@@ -24,7 +24,7 @@ function App() {
 
             {/* <Modal /> */}
             <FingerprintIcon
-              className='App-btn pulse-btn'
+              className='App-btn pulse'
               type='button'
               onClick={(event) => (window.location.href = "/login")}
             />

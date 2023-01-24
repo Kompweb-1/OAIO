@@ -5,7 +5,7 @@
   /* align-items: center; */
   /* height: 25%; */
   /* margin-bottom: 20px; */
-  height: 260px;
+  height: 220px;
 }
 .logo em {
   /* font-family: "Josefin Sans", sans-serif; */
@@ -48,18 +48,17 @@ em.planet {
   animation: planet-rotate 10s linear infinite;
   /* position: relative; */
 }
-
-/* em.planet::before { */
-/* content: ""; */
-/* position: absolute; */
-/* top: 1vmin; */
-/* left: 0.9vmin; */
-/* z-index: -1; */
-/* width: 2.5vmin; */
-/* height: 2.5vmin; */
-/* border-radius: 50%; */
-/* background: #2c2c2c; */
-/* } */
+/* 
+em.planet::before {
+  content: "";
+  position: absolute;
+  top: -2vmin;
+  z-index: -1;
+  width: 1vmin;
+  height: 1vmin;
+  border-radius: 50%;
+  background: #ededed;
+} */
 
 em.planet.left {
   transform-origin: 8vmin 2vmin;
@@ -101,7 +100,7 @@ em.planet.right {
 @media (max-width: 480px) {
   .logo {
     /* background-color: red; */
-    height: 100px;
+    height: 140px;
   }
 
   .logo h1::before {
