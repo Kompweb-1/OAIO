@@ -24,6 +24,7 @@ ul {
 
 .brand {
   text-align: left;
+  padding-left: 10px;
 }
 
 .brand span {
@@ -84,7 +85,7 @@ ul {
   /* background: #000000a0; */
   /* border: 1px solid #00dbb7; */
   text-transform: uppercase;
-  border-radius: 12px;
+  border-radius: 6px;
   /* border: 1px solid #61fbee54; */
   /* box-shadow: 0px 1px #686868, 0px -1px 12px #000000, 1px -1px 1px #9a9a9a; */
 }
@@ -110,6 +111,6 @@ ul {
     margin-top: 0;
   }
   .contact-wrapper > * {
-    padding: 0.5em;
+    padding: 1em;
   }
 }

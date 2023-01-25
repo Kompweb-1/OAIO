@@ -2,7 +2,7 @@
 // npm formik yup - validate "form" and authentificate "user"
 
 import "../style/signup.css";
-import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
+// import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
 import { useEffect, useState } from "react";
 import {
   //   addDoc,
@@ -116,7 +116,7 @@ const New = ({ input, title }) => {
           <form onSubmit={handleAdd}>
             <div className='formInput'>
               <label htmlFor='file'>
-                <DriveFolderUploadOutlinedIcon className='icon' />
+                {/* <DriveFolderUploadOutlinedIcon className='icon' /> */}
               </label>
               <input
                 type='file'

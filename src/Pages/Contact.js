@@ -13,9 +13,9 @@ const Contact = () => {
 
   return (
     <div className='container'>
-      <h1 className='brand'>
-        <span>OAIO</span> Studio
-      </h1>
+      <h2 className='brand'>
+        <span>OAIO</span> Studios
+      </h2>
       <div className='contact-wrapper'>
         <div className='contact'>
           <h4>Email Us</h4>

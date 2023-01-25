@@ -84,11 +84,11 @@
   /* font-weight: bolder; */
 }
 .App .App-btn {
-  border: 1px solid #424141;
+  border: 2px solid #000000;
   border-radius: 50px;
-  color: #6ddbb6;
-  width: 46px;
-  height: 88px;
+  /* color: #6ddbb6; */
+  width: 56px;
+  height: 100px;
   margin: 20px 0;
   background: linear-gradient(
     90deg,
@@ -100,6 +100,7 @@
 }
 .App .App-btn:hover {
   border: 2px solid #03fbc9;
+  box-shadow: 0 0 20px #03fbc9;
 }
 
 /* .pulse {
@@ -129,9 +130,24 @@
     box-shadow: 0 0 2px #6ddbb6;
   }
 } */
-
+.App-btn img {
+  width: 46px;
+  height: 74px;
+  background-color: #00000000;
+  /* border-radius: 50%; */
+  padding: 6px 2px;
+}
 .pulse {
-  animation: pulse 2000ms infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pulse 3000ms infinite;
+  /* border-radius: 25%; */
+  /* margin-bottom: 10px; */
+  /* cursor: pointer; */
+  /* background: rgba(0, 0, 0, 0.939); */
+  /* border-radius: 18%; */
+  /* color: red; */
 }
 
 @keyframes pulse {
@@ -139,7 +155,7 @@
     box-shadow: 0 0 0 0 #03fbc9;
   }
   50% {
-    box-shadow: 0 0 200px #000000;
+    box-shadow: 0 0 400px #000000;
   }
   100% {
     box-shadow: 0 0 0 1px #01ddbc;
@@ -231,7 +247,7 @@
 @media (max-width: 480px) {
   .title {
     /* width: 90%; */
-    height: 280px;
+    height: 160px;
     padding: 0;
     /* margin-bottom: 10px; */
   }
