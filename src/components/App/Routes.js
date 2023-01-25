@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import "../../style/dark.css";
 // import { Route, Routes } from "react-router-dom";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";

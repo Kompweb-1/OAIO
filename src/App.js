@@ -1,4 +1,4 @@
-import "./style/app.css";
+import "./style/App.css";
 import Routes from "./components/App/Routes";
 import Footer from "./components/ui/Footer";
 import Logo from "./components/ui/Logo";
@@ -11,7 +11,7 @@ function App() {
       <div className='App-header'>
         <Logo />
       </div>
-      <div className='app'>
+      <div className='App'>
         <Routes />
       </div>
       <Footer />
