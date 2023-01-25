@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../../style/subscribe.css";
-import TextField from "@mui/material/TextField";
+// import TextField from "@mui/material/TextField";
 
 function Subscribe() {
   const [value, setValue] = useState("");
@@ -51,7 +51,7 @@ function Subscribe() {
     <>
       <div className='subscribe'>
         <form onSubmit={handleChange}>
-          <TextField
+          <input
             id='standard-basic'
             type='text'
             value={value}
@@ -60,6 +60,15 @@ function Subscribe() {
             onChange={(e) => setValue(e.target.value)}
             disabled={status === "submitting"}
           />
+          {/* <TextField
+            id='standard-basic'
+            type='text'
+            value={value}
+            label='enter email:'
+            variant='standard'
+            onChange={(e) => setValue(e.target.value)}
+            disabled={status === "submitting"}
+          /> */}
           <button
             // type='button'
             // onClick={clearInput}

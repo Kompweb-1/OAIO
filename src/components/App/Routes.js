@@ -8,7 +8,6 @@ import Dashboard from "../../Pages/Dashboard.js";
 // import useToken from "../useToken";
 import LogIn from "../../Pages/LogIn";
 import SignUp from "../../Pages/SignUp";
-import { DarkModeContext } from "../context/darkModeContext";
 import { AuthContext } from "../context/AuthContext";
 import Contact from "../../Pages/Contact";
 
@@ -18,7 +17,6 @@ function App() {
   //   return <Login setToken={setToken} />;
   // }
 
-  const { darkMode } = useContext(DarkModeContext);
   const currentUser = useContext(AuthContext);
   // const currentUser = true;
   // change it to false normal
@@ -29,7 +27,7 @@ function App() {
   // console.log(currentUser);
   return (
     // <div className='wrapper'>
-    <div className={darkMode ? "app dark" : "wrapper"}>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<Home />} />

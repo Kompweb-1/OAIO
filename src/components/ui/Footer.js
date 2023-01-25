@@ -1,7 +1,7 @@
 import React from "react";
 import "../../style/footer.css";
-import TelegramIcon from "@mui/icons-material/Telegram";
-import TwitterIcon from "@mui/icons-material/Twitter";
+// import TelegramIcon from "@mui/icons-material/Telegram";
+// import TwitterIcon from "@mui/icons-material/Twitter";
 function Footer() {
   return (
     <footer>
@@ -19,7 +19,7 @@ function Footer() {
         </div>
 
         <div className='social-box'>
-          <TelegramIcon /> <TwitterIcon />
+          {/* <TelegramIcon /> <TwitterIcon /> */}
         </div>
         <p>© {new Date().getFullYear()} OAIO, Inc. All Rights Reserved.</p>
         {/* <a href='/signup'>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/home.css";
-import FingerprintIcon from "@mui/icons-material/Fingerprint";
-import ArrowUpwardTwoToneIcon from "@mui/icons-material/ArrowUpwardTwoTone";
+// import FingerprintIcon from "@mui/icons-material/Fingerprint";
+// import ArrowUpwardTwoToneIcon from "@mui/icons-material/ArrowUpwardTwoTone";
 // import Modal from "../components/utils/Modal";
 import Subscribe from "../components/ui/Subscribe";
 
@@ -23,12 +23,12 @@ function App() {
             </div>
 
             {/* <Modal /> */}
-            <FingerprintIcon
+            {/* <FingerprintIcon
               className='App-btn pulse'
               type='button'
               onClick={(event) => (window.location.href = "/login")}
-            />
-            <ArrowUpwardTwoToneIcon className='bounce' />
+            /> */}
+            {/* <ArrowUpwardTwoToneIcon className='bounce' /> */}
             <h5>Login</h5>
             <h6>BETA stage for developers ONLY</h6>
           </div>

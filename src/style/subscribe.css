@@ -1,18 +1,19 @@
 .subscribe {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
   margin-top: 100px;
+  /* width: 360px; */
   /* border: 2px solid red; */
 }
 .subscribe input {
   font-size: calc(14px + 0.3vmin);
-  color: rgb(255, 255, 255);
-  background: rgba(0, 0, 0, 0.82);
+  /* color: rgb(255, 255, 255); */
+  background: rgba(255, 255, 255, 0.82);
   border-bottom: 2px solid #6ddbb6;
-  /* border-radius: 8px; */
-  width: 260px;
-  padding: 20px;
+  border-radius: 8px;
+  width: 220px;
+  padding: 10px;
   /* height: 36px; */
   margin-bottom: 20px;
 }
@@ -23,9 +24,9 @@
   padding-left: 10px;
 }
 
-.Error {
+/* .Error {
   color: red;
-}
+} */
 
 @media (max-width: 480px) {
   .subscribe {
