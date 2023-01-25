@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../style/subscribe.css";
+import "../../style/Subscribe.css";
 // import TextField from "@mui/material/TextField";
 
 function Subscribe() {

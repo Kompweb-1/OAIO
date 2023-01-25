@@ -1,7 +1,7 @@
 // TO DO:
 // npm formik yup - validate "form" and authentificate "user"
 
-import "../style/signup.css";
+import "../style/Signup.css";
 // import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
 import { useEffect, useState } from "react";
 import {

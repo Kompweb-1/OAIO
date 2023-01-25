@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/pulse.css";
+import "../../style/Pulse.css";
 // import moment from "moment";
 // import { CRYPTO_COMPARE } from "../utils/keys";
 import {
