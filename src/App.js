@@ -1,6 +1,6 @@
-import "./style/App.css";
+import "./style/app.css";
 import Routes from "./components/App/Routes";
-import Footer from "./components/ui/Footer";
+import Footer from "./components/ui/footer";
 import Logo from "./components/ui/Logo";
 // import NavBar from "./components/ui/NavBar";
 

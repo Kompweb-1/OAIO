@@ -1,5 +1,5 @@
 // import { useEffect, useState } from "react";
-import "../style/Home.css";
+import "../style/home.css";
 import fingerprint from "../assets/fingerprint-login.png";
 // import FingerprintIcon from "@mui/icons-material/Fingerprint";
 // import ArrowUpwardTwoToneIcon from "@mui/icons-material/ArrowUpwardTwoTone";

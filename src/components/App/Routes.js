@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 // import { Route, Routes } from "react-router-dom";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
-import Home from "../../Pages/Home";
+import Home from "../../Pages/home";
 import Dashboard from "../../Pages/Dashboard.js";
 // import useToken from "../useToken";
 import LogIn from "../../Pages/LogIn";
