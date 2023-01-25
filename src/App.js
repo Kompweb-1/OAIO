@@ -11,7 +11,7 @@ function App() {
       <div className='App-header'>
         <Logo />
       </div>
-      <div className='App'>
+      <div className='app'>
         <Routes />
       </div>
       <Footer />
