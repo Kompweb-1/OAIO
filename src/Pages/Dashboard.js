@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/dashboard.css";
+// import "../style/dashboard.css";
 // import Drawer from "../components/utils/Drawer";
 // import TradingView from "../components/ui/TradingView";
 // import TechnicalAnalysis from "../components/ui/TechnicalAnalysis";
