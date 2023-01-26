@@ -1,4 +1,4 @@
-import "./style/app.css";
+import "./style/App.css";
 import Routes from "./components/app/routes";
 import Footer from "./components/ui/footer";
 import Logo from "./components/ui/logo";
