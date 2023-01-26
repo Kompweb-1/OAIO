@@ -1,5 +1,5 @@
 import "./style/App.css";
-import Routes from "./components/app/routes";
+import Routes from "./components/app/Routes";
 import Footer from "./components/ui/footer";
 import Logo from "./components/ui/logo";
 // import NavBar from "./components/ui/NavBar";
