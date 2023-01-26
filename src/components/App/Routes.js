@@ -24,7 +24,6 @@ function App() {
   };
   // console.log(currentUser);
   return (
-    // <div className='wrapper'>
     <div>
       <BrowserRouter>
         <Routes>
@@ -32,8 +31,6 @@ function App() {
           <Route path='/login' element={<LogIn />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/contact' element={<Contact />} />
-
-          {/* <RequireAuth> */}
           <Route
             index
             element={
@@ -43,7 +40,6 @@ function App() {
             }
           />
           <Route path='/dashboard' element={<Dashboard />} />
-          {/* </RequireAuth> */}
         </Routes>
       </BrowserRouter>
     </div>

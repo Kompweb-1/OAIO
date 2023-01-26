@@ -1,4 +1,5 @@
 // import { useEffect, useState } from "react";
+import React from "react";
 import "../style/home.css";
 import fingerprint from "../assets/fingerprint-login.png";
 // import FingerprintIcon from "@mui/icons-material/Fingerprint";
@@ -8,7 +9,6 @@ import Subscribe from "../components/ui/subscribe";
 
 function App() {
   // const [file, setFile] = useState("");
-
   // useEffect(() => {}, [file]);
 
   return (
