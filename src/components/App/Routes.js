@@ -6,7 +6,7 @@ import Dashboard from "../../pages/dashboard.js";
 // import useToken from "../useToken";
 import LogIn from "../../pages/logIn";
 import SignUp from "../../pages/signUp";
-import { AuthContext } from "../context/authContext";
+import { AuthContext } from "../context/AuthContext";
 import Contact from "../../pages/contact";
 
 function App() {
