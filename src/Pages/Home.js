@@ -5,7 +5,7 @@ import fingerprint from "../assets/fingerprint-login.png";
 // import FingerprintIcon from "@mui/icons-material/Fingerprint";
 // import ArrowUpwardTwoToneIcon from "@mui/icons-material/ArrowUpwardTwoTone";
 // import Modal from "../components/utils/Modal";
-import Subscribe from "../components/ui/subscribe";
+import Subscribe from "../components/UI/subscribe";
 
 function App() {
   // const [file, setFile] = useState("");
