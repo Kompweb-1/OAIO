@@ -1,5 +1,5 @@
 import React from "react";
-import "../../style/footer.css";
+import "../../style/Footer.css";
 // import TelegramIcon from "@mui/icons-material/Telegram";
 // import TwitterIcon from "@mui/icons-material/Twitter";
 function Footer() {
