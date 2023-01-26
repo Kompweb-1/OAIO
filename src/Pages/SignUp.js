@@ -1,5 +1,4 @@
-// TO DO:
-// npm formik yup - validate "form" and authentificate "user"
+// TO DO: npm formik yup - validate "form" and authentificate "user"
 
 import "../style/signup.css";
 // import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
