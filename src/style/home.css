@@ -13,7 +13,7 @@
   /* border: 1px solid #ffffff86; */
   /* width: 360px; */
   height: 320px;
-  margin-bottom: 5%;
+  margin-bottom: 100px;
   padding: 0 160px;
   /* width: 80%; */
 }
@@ -37,7 +37,7 @@
   /* text-shadow: 3px 3px 0px rgb(90, 125, 120), 0px -2px 40px rgb(0, 0, 0); */
   font-size: calc(16px + 1vmin);
   letter-spacing: 0.5rem;
-  width: 360px;
+  /* width: 360px; */
 }
 
 .home-card {
@@ -50,7 +50,7 @@
   width: 360px;
   height: 360px;
   /* background: rgba(217, 217, 217, 0.58); */
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   backdrop-filter: blur(6px);
   border-radius: 50%;
   cursor: pointer;
@@ -83,24 +83,27 @@
   background-color: #00000000;
   /* font-weight: bolder; */
 }
-.App .App-btn {
-  border: 2px solid #000000;
-  border-radius: 50px;
-  /* color: #6ddbb6; */
-  width: 56px;
-  height: 100px;
+.App-btn {
+  /* border: 2px solid #000000; */
+  /* border-radius: 50px; */
+  /* width: 56px; */
+  height: 88px;
   margin: 20px 0;
+  background: #00000000;
+  cursor: pointer;
+}
+.App-btn:hover {
   background: linear-gradient(
     90deg,
     rgb(69, 69, 69) 0%,
     #000000 50%,
     #595959 100%
   );
-  cursor: pointer;
-}
-.App .App-btn:hover {
-  border: 2px solid #03fbc9;
-  box-shadow: 0 0 20px #03fbc9;
+  border: 1px solid #03fbc991;
+  border-radius: 47%;
+  box-shadow: 0 0 4px #03fbc9;
+  padding: 6px;
+  /* transform: scale(1.08); */
 }
 
 /* .pulse {

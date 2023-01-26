@@ -1,14 +1,13 @@
 import React, { useContext } from "react";
-// import { Route, Routes } from "react-router-dom";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
-import Home from "../../Pages/home";
-import Dashboard from "../../Pages/Dashboard.js";
+import Home from "../../pages/home";
+import Dashboard from "../../pages/dashboard.js";
 // import useToken from "../useToken";
-import LogIn from "../../Pages/LogIn";
-import SignUp from "../../Pages/SignUp";
-import { AuthContext } from "../context/AuthContext";
-import Contact from "../../Pages/Contact";
+import LogIn from "../../pages/logIn";
+import SignUp from "../../pages/signUp";
+import { AuthContext } from "../context/authContext";
+import Contact from "../../pages/contact";
 
 function App() {
   // const { token, setToken } = useToken();

@@ -3,7 +3,7 @@ import React from "react";
 // import Drawer from "../components/utils/Drawer";
 // import TradingView from "../components/ui/TradingView";
 // import TechnicalAnalysis from "../components/ui/TechnicalAnalysis";
-import PulseClock from "../components/ui/PulseClock";
+import PulseClock from "../components/ui/pulseClock";
 function Dashboard() {
   return (
     <>

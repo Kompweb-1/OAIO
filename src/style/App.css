@@ -1,5 +1,6 @@
-.App {
+.app-body {
   text-align: center;
   min-height: calc(100vh - 100px);
   /* 100vh is the full viewport height, 60px is the footer height */
+  /* border: 2px solid blue; */
 }

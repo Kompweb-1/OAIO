@@ -246,12 +246,12 @@ button:active {
   transform: translateY(2px) translateX(1px);
   box-shadow: 0 0 0 0 #6ddbb6;
 }
-form {
+/* form {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-}
+} */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   em {
