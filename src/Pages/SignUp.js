@@ -10,7 +10,7 @@ import {
   serverTimestamp,
   setDoc,
 } from "firebase/firestore";
-import { auth } from "../firebase/firebase";
+import { auth } from "../Firebase/firebase";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 // import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 
