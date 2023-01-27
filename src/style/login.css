@@ -1,5 +1,5 @@
 .login {
-  min-height: calc(100vh - 100px);
+  /* min-height: calc(100vh - 100px); */
   /* border: 2px solid rgb(0, 26, 255); */
   margin-top: 100px;
   display: flex;
@@ -17,6 +17,6 @@
   height: 300px;
 }
 
-.login input {
+/* .login input {
   width: 260px;
-}
+} */
