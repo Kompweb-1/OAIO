@@ -14,29 +14,31 @@ function App() {
   return (
     <>
       <div className='home'>
-        <div className='title'>
-          <h2>A Simple Application For Your Investment Options</h2>
+        <div className='title '>
+          <h1>A Simple Application For Your Investment Options</h1>
+          <p className='p-content pulse'>
+            We supply a series of A.I. principles and practical patterns
+            connected with high quality algebric algorithmically resources to
+            help users manage their investments more efficiently
+          </p>
+          <h2>BETA stage for developers ONLY</h2>
         </div>
+
         <header className='App-body'>
           <div className='home-card'>
-            <div className='card pulse'>
-              <p>
-                We supply a series of A.I. principles and practical patterns
-                connected with high quality algebric algorithmically resources
-                to help users manage their investments more efficiently
-              </p>
-            </div>
-
-            {/* <Modal /> */}
-            <div className='App-btn'>
-              <img
-                src={fingerprint}
-                alt=''
-                type='button'
-                onClick={(event) => (window.location.href = "/login")}
-              />
+            <div className='card'>
+              <div className='App-btn pulse-print'>
+                <img
+                  src={fingerprint}
+                  alt=''
+                  type='button'
+                  onClick={(event) => (window.location.href = "/login")}
+                />
+              </div>
             </div>
             <h5>Login</h5>
+
+            {/* <Modal /> */}
 
             {/* <FingerprintIcon
               className='App-btn pulse'
@@ -44,8 +46,6 @@ function App() {
               onClick={(event) => (window.location.href = "/login")}
             /> */}
             {/* <ArrowUpwardTwoToneIcon className='bounce' /> */}
-
-            <h6>BETA stage for developers ONLY</h6>
           </div>
           <Subscribe />
         </header>

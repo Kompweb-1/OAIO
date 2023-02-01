@@ -148,38 +148,28 @@ body::after {
     48vw 28vh 0.1vmin rgba(200, 255, 230, 0.7);
 }
 
-/* margin: 0; */
-/* font-size: 0.7em; */
-/* text-justify: auto; */
-/* font-stretch: expanded; */
-/* letter-spacing: 0.1em; */
-/* text-shadow: 2px 2px 2px #000000; */
-/* text-shadow: 9px 9px 9px #000000; */
-/* text-shadow: -4px 6px 1px rgb(0, 0, 0); */
-/* text-shadow: -1px 3px 0 #7fffd4; */
-/* font-weight: 600; */
-/* -webkit-transform-origin: 8.5vmin 1.2vmin; */
-/* -webkit-transform-origin: -8vmin 1vmin; */
-
 h1 {
+  font-size: calc(24px + 3vmin);
   color: #cdcdcd;
 }
 
 h2 {
   color: white;
   text-transform: uppercase;
-  font-size: calc(16px + 0.5vmin);
+  font-size: calc(16px + 2vmin);
   letter-spacing: 0.1em;
 }
 h3 {
-  font-size: 0.8em;
+  /* font-size: 0.8em; */
+  font-size: calc(16px + 1vmin);
+  color: white;
 }
 h4 {
   color: #6ddbb6;
   font-size: 0.8em;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
-
 h5 {
   font-size: 0.7em;
   color: #6ddbb6;
@@ -188,55 +178,34 @@ h5 {
   margin: 0;
 }
 h6 {
-  font-size: 0.6em;
+  font-size: 0.7em;
   color: #ffffffce;
   letter-spacing: 0.1em;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 p {
   font-size: calc(14px + 0.1vmin);
   color: #ffffffce;
   letter-spacing: 0.1em;
 }
-
 input {
-  width: 260px;
+  width: 280px;
   padding: 8px;
-  /* color: black; */
   background: #cdcdcd;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
 }
 
-/* button {
-  font-size: calc(10px + 0.2vmin);
-  text-transform: uppercase;
-  font-weight: 800;
-  color: #f4f4f4;
-  letter-spacing: 0.2em;
-  height: 38px;
-  width: 100px;
-  margin-top: 20px;
-  cursor: pointer;
-  border: 1px solid #7fffd448;
-  background: linear-gradient(225deg, #6ddbb6, #000000, #555555);
-  border-radius: 25px;
-} */
 button {
-  /* background-color: white; */
   background: linear-gradient(225deg, #6ddbb6, #000000, #555555);
-  /* color: black; */
   color: #f4f4f4;
-  /* margin: 10px; */
   border-radius: 10em;
-  font-size: 14px;
+  font-size: calc(14px + 0.1vmin);
+  letter-spacing: 0.3em;
   font-weight: 600;
   padding: 1em 2em;
-  /* margin: 1rem 0; */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  border: 1px solid #6ddbb6;
-  box-shadow: 0 0 0 0 #6ddbb6;
+  border: 2px solid #6ddbb6;
 }
 
 button:hover {
@@ -248,12 +217,7 @@ button:active {
   transform: translateY(2px) translateX(1px);
   box-shadow: 0 0 0 0 #6ddbb6;
 }
-/* form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-} */
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   em {

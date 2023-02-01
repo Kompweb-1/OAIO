@@ -1,15 +1,16 @@
-/* footer {
-  border-bottom: 6px solid #f0f4f3fc;
-} */
 .myfooter {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   color: #02f5b0f9;
-  /* background: rgba(0, 0, 0, 0.224); */
   height: 100px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 2px solid #0ad6a3fc; */
   /* width: 100%; */
+  /* background: rgba(0, 0, 0, 0.224); */
 }
 
 .footer-menu {
@@ -22,22 +23,15 @@
 .social-box {
   width: 200px;
   display: flex;
-  /* border: 2px solid red; */
   justify-content: space-evenly;
 }
 
-.myfooter h4 {
-  /* color: #02f5b02a; */
-  font-size: calc(12px + 0.3vmin);
-  text-transform: uppercase;
-}
 .myfooter a {
   text-decoration: none;
 }
 
 .myfooter h4:hover {
   color: #ffffff;
-  /* border-bottom: 2px solid #02f5b0f9; */
 }
 
 @media (max-width: 480px) {

@@ -1,10 +1,10 @@
 import React from "react";
-import "../../style/pulse.css";
+import "../../style/pulseClock.css";
 // import moment from "moment";
 // import { CRYPTO_COMPARE } from "../utils/keys";
 import {
   //   TradingViewEmbed,
-  MiniChart,
+  // MiniChart,
   AdvancedChart,
   // TickerTape,
   TechnicalAnalysis,
@@ -14,16 +14,9 @@ import {
   CompanyProfile,
 } from "react-tradingview-embed";
 
-// import TechnicalAnalysis from "react-tradingview-widget";
-
 // var formatter = new Intl.NumberFormat("en-US", {
 //   style: "currency",
 //   currency: "USD",
-
-// These options are needed to round to whole numbers if that's what you want.
-//minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
-//maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
-// });
 
 class Dashboard extends React.Component {
   //   constructor(props) {
@@ -122,7 +115,7 @@ class Dashboard extends React.Component {
         </div>
 
         <div className='barRequest'>
-          <MiniChart
+          {/* <MiniChart
             widgetPropsAny={{
               isTransparent: true,
               interval: "1D",
@@ -138,7 +131,7 @@ class Dashboard extends React.Component {
             // current_supply={x.current_supply}
             // transaction_count={x.transaction_count}
             // transaction_count_all_time={x.transaction_count_all_time}
-          />
+          /> */}
           <input
             placeholder='Search for a symbol'
             ref={(input) => (this.search = input)}
@@ -176,11 +169,11 @@ class Dashboard extends React.Component {
 
         {/* </div> */}
 
-        <div style={{ marginTop: 10 }}>
+        <div className='achart'>
           {/* {query.length > 2 ? ( */}
           <AdvancedChart
             widgetPropsAny={{
-              width: "100%",
+              // width: "100%",
               // symbol: "COINBASE:BTCUSD",
               interval: "60",
               timezone: "Etc/UTC",
@@ -198,6 +191,8 @@ class Dashboard extends React.Component {
                 "BINANCE:POLYXBTC",
                 "BINANCEUS:POLYXUSD",
               ],
+              hotlist: true,
+              calendar: true,
               // width: "100%",
               // height: 480,
               symbol: query + "USD",
@@ -273,15 +268,17 @@ class Dashboard extends React.Component {
           className='btnRequest'>
           Refresh
         </button>
-        <CompanyProfile
-          widgetPropsAny={{
-            isTransparent: true,
-            // colorTheme: "dark",
-            height: "auto",
-            width: "100%",
-            symbol: query + "USD",
-          }}
-        />
+        <div className='cchart'>
+          <CompanyProfile
+            widgetPropsAny={{
+              isTransparent: true,
+              height: "auto",
+              width: "100%",
+              symbol: query + "USD",
+            }}
+          />
+        </div>
+
         {/* <CryptocurrencyMarket
           widgetProps={{
             isTransparent: true,

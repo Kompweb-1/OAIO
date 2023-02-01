@@ -17,6 +17,13 @@
   height: 300px;
 }
 
+.login img {
+  width: 46px;
+  height: 74px;
+  background-color: #00000000;
+  padding: 6px 2px;
+}
+
 /* .login input {
   width: 260px;
 } */
