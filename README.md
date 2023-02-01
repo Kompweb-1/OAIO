@@ -2,7 +2,7 @@
 
 A Simple App For Your Investment Options
 
-![logo](logo.png)
+![logo](/src/assets/logo.png)
 
 ### [Home](https://kontor.netlify.app/)
 
