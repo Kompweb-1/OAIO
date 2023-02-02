@@ -149,14 +149,14 @@ body::after {
 }
 
 h1 {
-  font-size: calc(24px + 3vmin);
+  font-size: calc(32px + 2vmin);
   color: #cdcdcd;
 }
 
 h2 {
   color: white;
   text-transform: uppercase;
-  font-size: calc(16px + 2vmin);
+  font-size: calc(18px + 1vmin);
   letter-spacing: 0.1em;
 }
 h3 {

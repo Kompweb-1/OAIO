@@ -109,10 +109,7 @@ em.planet.right {
     width: 14vmin;
     height: 14vmin;
   }
-  .title h1 {
-    font-size: 6vmin;
-    max-width: 260px;
-  }
+
   em.planet.left {
     /* transform-origin: 10vmin 4vmin; */
     box-shadow: 0px 2px 2px #00ff2a;

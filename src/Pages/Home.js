@@ -15,7 +15,12 @@ function App() {
     <>
       <div className='home'>
         <div className='title '>
-          <h1>A Simple Application For Your Investment Options</h1>
+          <h1>
+            A Simple <br />
+            Application For
+            <br /> Your Investment <br />
+            Options
+          </h1>
           <p className='p-content pulse'>
             We supply a series of A.I. principles and practical patterns
             connected with high quality algebric algorithmically resources to
