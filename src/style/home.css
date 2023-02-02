@@ -25,11 +25,13 @@
   align-items: center;
   justify-content: center;
   width: 400px;
+  /* border: 1px solid #ffffff86; */
 }
 .title h1 {
   color: transparent;
   text-shadow: 0 0 4px rgb(90, 125, 120);
-  font-size: 38px;
+  font-size: 36px;
+  /* height: 400px; */
   letter-spacing: 0.2rem;
 }
 .title h1:hover {
@@ -41,7 +43,7 @@
   color: transparent;
   text-shadow: 0 0 4px rgb(90, 125, 120);
   letter-spacing: 0.2rem;
-  margin-top: 100px;
+  margin-top: 60px;
   width: 260px;
 }
 .title h2:hover {
@@ -79,10 +81,10 @@
 }
 
 .p-content {
-  font-size: 20px;
+  font-size: 18px;
   color: #ffffff;
-  /* width: 380px; */
-  height: 320px;
+  width: 360px;
+  height: 300px;
   line-height: 1.6;
   background-color: #00000000;
   padding: 42px;

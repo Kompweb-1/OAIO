@@ -9,8 +9,8 @@
   /* z-index: 1; */
   /* top: 8vmin; */
   /* border: 0.2vmin dashed #02f9b3; */
-  height: 100px;
-  margin-top: 60px;
+  height: 140px;
+  /* margin-top: 40px; */
 }
 .logo em {
   color: #ffffff;
@@ -95,9 +95,19 @@ em.planet.right {
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
+@media (max-width: 940px) {
+  .logo {
+    height: 100px;
+  }
+}
+@media (max-width: 760px) {
   .logo {
     height: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .logo {
+    height: 40px;
     /* margin: 60px 0; */
   }
   .logo em {
