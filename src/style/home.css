@@ -25,7 +25,8 @@
   align-items: center;
   justify-content: center;
   max-width: 460px;
-  height: auto;
+  /* border: 1px solid #ffffff86; */
+  /* height: auto; */
 }
 
 .title h2 {
@@ -72,19 +73,19 @@
 }
 
 .title p {
-  font-size: calc(16px + 0.2vmin);
-  max-width: 380px;
-  letter-spacing: 0.1em;
+  font-size: calc(16px + 0.5vmin);
+  /* max-width: 400px; */
+  /* letter-spacing: 0.1em; */
   line-height: 1.6;
-  margin-top: 100px;
+  /* margin-top: 20px; */
   background-color: #00000000;
-  padding: 60px 40px;
+  padding: 40px;
   border: 1px solid #ffffff3f;
   box-shadow: 4px 0px 20px #61fbdf43, -4px 0px 100px #61fbe63b,
     rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset;
-  border-radius: 12%;
+  border-radius: 48px;
 }
 
 .title p:hover {
@@ -125,19 +126,23 @@
 }
 
 .pulse-print {
-  animation: pulse-print 2000ms infinite;
+  animation: pulse-print 3000ms infinite;
   /* background: #bc0c0c00; */
 }
 
 @keyframes pulse-print {
   0% {
-    transform: scale(0.6);
-  }
-  99% {
     transform: scale(1.05);
   }
+  /* 50% {
+    transform: scale(1.05);
+  } */
+
   100% {
     transform: scale(1.15);
+  }
+  50% {
+    transform: scale(0.8);
   }
 }
 
@@ -233,12 +238,13 @@
     font-size: calc(16px + 0.3vmin);
     font-weight: 900;
     text-shadow: 0 0 2px rgb(90, 125, 120);
-    padding: 2px 64px;
+    padding: 2px 54px;
   }
   .title h2:hover {
     text-shadow: 0 0 8px rgb(90, 125, 120);
   }
   .home p {
-    width: 280px;
+    width: 320px;
+    padding: 32px;
   }
 }

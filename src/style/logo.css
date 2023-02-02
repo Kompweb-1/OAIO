@@ -9,7 +9,7 @@
   /* z-index: 1; */
   /* top: 8vmin; */
   /* border: 0.2vmin dashed #02f9b3; */
-  height: 200px;
+  height: 160px;
   margin-top: 60px;
 }
 .logo em {
@@ -97,8 +97,21 @@ em.planet.right {
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .logo {
-    height: 100px;
+    height: 80px;
     /* margin: 60px 0; */
+  }
+  .logo em {
+    width: 4.6vmin;
+    top: 4.4vmin;
+    font-size: 4vmin;
+  }
+  .logo h1::before {
+    width: 14vmin;
+    height: 14vmin;
+  }
+  .title h1 {
+    font-size: 6vmin;
+    max-width: 260px;
   }
   em.planet.left {
     /* transform-origin: 10vmin 4vmin; */

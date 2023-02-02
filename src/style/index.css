@@ -205,7 +205,8 @@ button {
   padding: 1em 2em;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  border: 2px solid #6ddbb6;
+  /* border: 2px solid #6ddbb6; */
+  border: none;
 }
 
 button:hover {
