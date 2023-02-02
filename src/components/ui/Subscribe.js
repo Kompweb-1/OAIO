@@ -55,6 +55,7 @@ function Subscribe() {
             id='standard-basic'
             type='text'
             value={value}
+            placeholder='email'
             label='enter email:'
             variant='standard'
             onChange={(e) => setValue(e.target.value)}
