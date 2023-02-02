@@ -107,7 +107,7 @@ em.planet.right {
 }
 @media (max-width: 480px) {
   .logo {
-    height: 40px;
+    height: 60px;
     /* margin: 60px 0; */
   }
   .logo em {

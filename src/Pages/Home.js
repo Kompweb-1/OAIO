@@ -26,7 +26,11 @@ function App() {
             connected with high quality algebric algorithmically resources to
             help users manage their investments more efficiently
           </p>
-          <h2>BETA stage for developers ONLY</h2>
+          <h4>
+            BETA stage for <br />
+            developers <br />
+            ONLY
+          </h4>
         </div>
 
         <header className='App-body'>

@@ -8,13 +8,13 @@ function Footer() {
       <div className='myfooter'>
         <div className='footer-menu'>
           <a href='/'>
-            <h4>Home</h4>
+            <h5>Home</h5>
           </a>
           <a href='/contact'>
-            <h4>Contact</h4>
+            <h5>Contact</h5>
           </a>
           <a href='/login'>
-            <h4>Login</h4>
+            <h5>Login</h5>
           </a>
         </div>
 

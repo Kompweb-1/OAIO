@@ -24,13 +24,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 400px;
+  /* width: 400px; */
   /* border: 1px solid #ffffff86; */
 }
 .title h1 {
   color: transparent;
   text-shadow: 0 0 4px rgb(90, 125, 120);
-  font-size: 36px;
+  /* font-size: 32px; */
   /* height: 400px; */
   letter-spacing: 0.2rem;
 }
@@ -38,17 +38,11 @@
   color: #6ddbb6;
   text-shadow: 2px 4px 0px #000000;
 }
-.title h2 {
-  font-size: 24px;
-  color: transparent;
-  text-shadow: 0 0 4px rgb(90, 125, 120);
+.title h4 {
+  background-color: #ff000000;
+  text-shadow: 1px 1px 0px #000000, -1px -1px 0px #000000;
   letter-spacing: 0.2rem;
   margin-top: 60px;
-  width: 260px;
-}
-.title h2:hover {
-  color: #6ddbb6;
-  text-shadow: 2px 2px 2px #000000;
 }
 .home-card {
   display: flex;
@@ -84,10 +78,10 @@
   font-size: 18px;
   color: #ffffff;
   width: 360px;
-  height: 300px;
+  height: auto;
   line-height: 1.6;
   background-color: #00000000;
-  padding: 42px;
+  padding: 46px;
   border: 2px solid #6d6d6d;
   box-shadow: 4px 0px 20px #61fbdf43, -4px 0px 100px #61fbe63b,
     rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
@@ -242,28 +236,32 @@
   }
 }
 
+@media (max-width: 780px) {
+  /* .title h1 {
+    font-size: 6vmin;
+  } */
+}
+
 @media (max-width: 480px) {
-  .title {
-    max-width: 360px;
-  }
-  .title h1 {
-    font-size: 9vmin;
-    max-width: 380px;
-  }
+  /* .title { */
+  /* width: 380px; */
+  /* } */
+  /* .title h1 { */
+  /* font-size: 9vmin; */
+  /* width: 380px; */
+  /* } */
 
   .title h2 {
     font-size: 18px;
     font-weight: 900;
-    text-shadow: 0 0 2px rgb(90, 125, 120);
-    /* padding: 2px 54px; */
-    max-width: 220px;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
   }
   /* .title h2:hover {
     text-shadow: 0 0 8px rgb(90, 125, 120);
   } */
   .p-content {
-    width: 320px;
-    height: auto;
-    /* padding: 32px; */
+    width: 300px;
+    /* height: auto; */
+    padding: 40px 18px;
   }
 }
