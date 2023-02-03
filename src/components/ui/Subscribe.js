@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../../style/subscribe.css";
 // import TextField from "@mui/material/TextField";
+import { FiShare } from "react-icons/fi";
 
 function Subscribe() {
   const [value, setValue] = useState("");
@@ -80,8 +81,12 @@ function Subscribe() {
             SUBMIT
           </button>
         </form>
+        <p>Subscribe your email address and stay up to date on development</p>
+        <div className='share-icon pulse-print'>
+          <FiShare />
+        </div>
+        {/* <h5>Share</h5> */}
       </div>
-      <h6>Stay up to date on development</h6>
     </>
   );
 }

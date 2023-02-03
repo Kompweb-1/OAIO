@@ -22,9 +22,10 @@ function App() {
             Options
           </h1>
           <p className='p-content pulse'>
-            We supply a series of A.I. principles and practical patterns
-            connected with high quality algebric algorithmically resources to
-            help users manage their investments more efficiently
+            We supply a series <br />
+            of A.I. principles and practical patterns connected with high
+            quality algebric algorithmically resources to help users manage
+            their investments more efficiently
           </p>
           <h4>
             BETA stage for <br />

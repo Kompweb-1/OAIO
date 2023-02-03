@@ -8,20 +8,20 @@ function Footer() {
       <div className='myfooter'>
         <div className='footer-menu'>
           <a href='/'>
-            <h5>Home</h5>
+            <h4>Home</h4>
           </a>
           <a href='/contact'>
-            <h5>Contact</h5>
+            <h4>Contact</h4>
           </a>
           <a href='/login'>
-            <h5>Login</h5>
+            <h4>Login</h4>
           </a>
         </div>
 
         <div className='social-box'>
           {/* <TelegramIcon /> <TwitterIcon /> */}
+          <h6>© {new Date().getFullYear()} OAIO, Inc. All Rights Reserved</h6>
         </div>
-        <p>© {new Date().getFullYear()} OAIO, Inc. All Rights Reserved.</p>
         {/* <a href='/signup'>
           <h4>Signup</h4>
         </a> */}

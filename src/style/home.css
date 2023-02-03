@@ -30,9 +30,8 @@
 .title h1 {
   color: transparent;
   text-shadow: 0 0 4px rgb(90, 125, 120);
-  /* font-size: 32px; */
   /* height: 400px; */
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 .title h1:hover {
   color: #6ddbb6;
@@ -54,7 +53,7 @@
 }
 .card {
   margin: 20px 0;
-  /* border: 1px solid #6d6d6d; */
+  border: 2px solid #6ddbb6;
   cursor: pointer;
   transition: all 0.5s;
   display: flex;
@@ -75,15 +74,14 @@
 }
 
 .p-content {
-  font-size: 18px;
+  /* font-size: 18px; */
   color: #ffffff;
-  width: 360px;
+  width: 380px;
   height: auto;
-  line-height: 1.6;
-  background-color: #00000000;
+  /* background-color: #00000000; */
   padding: 46px;
-  border: 2px solid #6d6d6d;
-  box-shadow: 4px 0px 20px #61fbdf43, -4px 0px 100px #61fbe63b,
+  border: 1px solid #6d6d6d;
+  box-shadow: 4px 0px 20px #61fbdf89, -4px 0px 100px #61fbe689,
     rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset;
@@ -260,8 +258,7 @@
     text-shadow: 0 0 8px rgb(90, 125, 120);
   } */
   .p-content {
-    width: 300px;
-    /* height: auto; */
-    padding: 40px 18px;
+    width: 320px;
+    padding: 40px 26px;
   }
 }

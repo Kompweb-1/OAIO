@@ -149,25 +149,23 @@ body::after {
 }
 
 h1 {
-  font-size: calc(21px + 2vmin);
-  /* font-size: 4vmin; */
+  /* font-size: calc(21px + 2vmin); */
+  font-size: 2.5rem;
   color: #cdcdcd;
 }
 
 h2 {
   color: white;
   text-transform: uppercase;
-  /* font-size: calc(18px + 1vmin); */
-  font-size: 2vmin;
+  font-size: 1.5rem;
 }
 h3 {
-  /* font-size: 0.8em; */
-  font-size: calc(16px + 1vmin);
   color: white;
+  font-size: 1rem;
 }
 h4 {
   color: #6ddbb6;
-  font-size: 1em;
+  font-size: 0.9em;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
@@ -176,18 +174,18 @@ h5 {
   color: #6ddbb6;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  /* margin: 0; */
 }
 h6 {
-  font-size: 0.7em;
-  color: #ffffffce;
+  font-size: 0.7rem;
+  color: #d9d9d9;
   letter-spacing: 0.1em;
 }
 p {
-  font-size: calc(14px + 0.1vmin);
-  color: #ffffffce;
-  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  color: #d9d9d9;
+  line-height: 1.4em;
 }
+
 input {
   width: 280px;
   padding: 8px;
@@ -220,6 +218,12 @@ button:active {
   box-shadow: 0 0 0 0 #6ddbb6;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   em {
@@ -227,5 +231,9 @@ button:active {
     font-size: 6vmin;
     position: relative;
     width: 8vmin;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 }

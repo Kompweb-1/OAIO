@@ -1,6 +1,7 @@
 .subscribe {
   margin-top: 120px;
   /* height: 300px; */
+  width: 320px;
   /* border: 2px solid red; */
 }
 .subscribe form {
@@ -10,18 +11,18 @@
   justify-content: center;
 }
 .subscribe input {
-  font-size: calc(16px + 1vmin);
+  font-size: calc(16px + 0.5vmin);
   background: rgb(221, 221, 221);
   border: none;
   border-radius: 8px;
-  height: 52px;
-  width: 242px;
-  padding: 10px;
+  height: 48px;
+  /* width: 242px; */
+  /* padding: 10px; */
 }
 .subscribe label {
   font-size: calc(14px + 0.3vmin);
   letter-spacing: 0.1em;
-  color: #b5b5b557;
+  color: #f30b0beb;
   padding-left: 10px;
 }
 
@@ -29,6 +30,19 @@
   margin-top: 20px;
 }
 
+.share-icon {
+  color: #6ddbb6;
+  font-size: 42px;
+  border: none;
+  height: 60px;
+  cursor: pointer;
+}
+
+.share-icon:hover {
+  border: none;
+  color: white;
+  /* font-size: 46px; */
+}
 /* .Error {
   color: red;
 } */
