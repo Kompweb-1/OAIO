@@ -38,9 +38,7 @@
 
 @media (max-width: 480px) {
   .myfooter {
-    flex-wrap: wrap;
     margin-top: 40px;
-    width: 320px;
   }
   .footer-menu {
     display: block;
