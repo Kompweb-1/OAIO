@@ -21,44 +21,42 @@ function App() {
             <br /> Your Investment <br />
             Options
           </h1>
+          <header className='App-body'>
+            <div className='home-card'>
+              <div className='card'>
+                <div className='App-btn pulse-print'>
+                  <img
+                    src={fingerprint}
+                    alt=''
+                    type='button'
+                    onClick={(event) => (window.location.href = "/login")}
+                  />
+                </div>
+              </div>
+              <h5>Login</h5>
+              <h4>
+                BETA stage for <br />
+                developers <br />
+                ONLY
+              </h4>
+              {/* <Modal /> */}
+
+              {/* <FingerprintIcon
+              className='App-btn pulse'
+              type='button'
+              onClick={(event) => (window.location.href = "/login")}
+            /> */}
+              {/* <ArrowUpwardTwoToneIcon className='bounce' /> */}
+            </div>
+          </header>
           <p className='p-content pulse'>
             We supply a series <br />
             of A.I. principles and practical patterns connected with high
             quality algebric algorithmically resources to help users manage
             their investments more efficiently
           </p>
-          <h4>
-            BETA stage for <br />
-            developers <br />
-            ONLY
-          </h4>
         </div>
-
-        <header className='App-body'>
-          <div className='home-card'>
-            <div className='card'>
-              <div className='App-btn pulse-print'>
-                <img
-                  src={fingerprint}
-                  alt=''
-                  type='button'
-                  onClick={(event) => (window.location.href = "/login")}
-                />
-              </div>
-            </div>
-            <h5>Login</h5>
-
-            {/* <Modal /> */}
-
-            {/* <FingerprintIcon
-              className='App-btn pulse'
-              type='button'
-              onClick={(event) => (window.location.href = "/login")}
-            /> */}
-            {/* <ArrowUpwardTwoToneIcon className='bounce' /> */}
-          </div>
-          <Subscribe />
-        </header>
+        <Subscribe />
       </div>
     </>
   );

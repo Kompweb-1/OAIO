@@ -41,7 +41,6 @@
   background-color: #ff000000;
   text-shadow: 1px 1px 0px #000000, -1px -1px 0px #000000;
   letter-spacing: 0.2rem;
-  margin-top: 60px;
 }
 .home-card {
   display: flex;
@@ -81,11 +80,13 @@
   /* background-color: #00000000; */
   padding: 46px;
   border: 1px solid #6d6d6d;
+  letter-spacing: 0.1rem;
+
   box-shadow: 4px 0px 20px #61fbdf89, -4px 0px 100px #61fbe689,
     rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset;
-  border-radius: 48px;
+  border-radius: 18px;
 }
 .p-content:hover {
   /* color: white; */
