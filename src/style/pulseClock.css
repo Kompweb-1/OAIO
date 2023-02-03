@@ -1,6 +1,8 @@
 .charty {
+  /* width: 380px; */
   display: flex;
   justify-content: center;
+  /* border: 1px solid rgb(119, 119, 119); */
   /* margin-left: auto; */
   /* margin-right: auto; */
 }
