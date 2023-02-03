@@ -104,6 +104,7 @@ class Dashboard extends React.Component {
               isTransparent: true,
               autosize: true,
               // width: "100%",
+              width: 360,
               symbol: query + "USD",
             }}
           />
