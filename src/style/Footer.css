@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   /* color: #02f5b0f9; */
   /* height: 100px; */
-  width: 960px;
+  /* width: 960px; */
   /* margin-left: auto; */
   /* margin-right: auto; */
   /* border: 2px solid #0ad6a3fc; */
@@ -15,7 +15,7 @@
 }
 
 .footer-menu {
-  width: 300px;
+  width: 320px;
   display: flex;
   align-items: center;
   justify-content: space-between;

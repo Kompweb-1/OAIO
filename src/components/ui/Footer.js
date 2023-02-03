@@ -20,7 +20,7 @@ function Footer() {
 
         <div className='social-box'>
           {/* <TelegramIcon /> <TwitterIcon /> */}
-          <h6>© {new Date().getFullYear()} OAIO, Inc. All Rights Reserved</h6>
+          <h6>© {new Date().getFullYear()} OAIO, Inc. All Rights Reserved.</h6>
         </div>
         {/* <a href='/signup'>
           <h4>Signup</h4>
