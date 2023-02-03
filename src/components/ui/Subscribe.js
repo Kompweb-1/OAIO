@@ -81,7 +81,7 @@ function Subscribe() {
             SUBMIT
           </button>
         </form>
-        <p>Subscribe your email address and stay up to date on development</p>
+        <p>Subscribe and stay up to date on development</p>
         <div className='share-icon pulse-print'>
           <FiShare />
         </div>
