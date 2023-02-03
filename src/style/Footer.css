@@ -1,8 +1,8 @@
 .myfooter {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  flex-wrap: wrap;
   /* color: #02f5b0f9; */
   /* height: 100px; */
   width: 960px;
@@ -11,18 +11,19 @@
   /* border: 2px solid #0ad6a3fc; */
   /* width: 100%; */
   /* background: rgba(0, 0, 0, 0.224); */
+  margin-top: 2px;
 }
 
 .footer-menu {
-  width: 320px;
+  width: 300px;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #02f5b02a;
 }
 
 .social-box {
-  width: 360px;
+  width: 300px;
   /* display: flex; */
   /* justify-content: space-evenly; */
 }
