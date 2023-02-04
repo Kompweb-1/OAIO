@@ -1,5 +1,6 @@
 .myfooter {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -23,7 +24,7 @@
 }
 
 .social-box {
-  width: 300px;
+  width: 320px;
   /* display: flex; */
   /* justify-content: space-evenly; */
 }

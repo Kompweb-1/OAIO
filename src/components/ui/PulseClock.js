@@ -5,7 +5,7 @@ import "../../style/pulseClock.css";
 import {
   //   TradingViewEmbed,
   MiniChart,
-  // AdvancedChart,
+  AdvancedChart,
   // TickerTape,
   TechnicalAnalysis,
   // CryptocurrencyMarket,
@@ -102,7 +102,7 @@ class Dashboard extends React.Component {
               // interval: "1D",
               // theme: "dark",
               isTransparent: true,
-              autosize: true,
+              // autosize: true,
               // width: "100%",
               width: 371,
               symbol: query + "USD",
@@ -162,33 +162,6 @@ class Dashboard extends React.Component {
             // transaction_count_all_time={x.transaction_count_all_time}
           />
           {/* {query.length > 2 ? ( */}
-          {/* <AdvancedChart
-            widgetPropsAny={{
-              // width: "100%",
-              // symbol: "COINBASE:BTCUSD",
-              interval: "60",
-              timezone: "Etc/UTC",
-              theme: "dark",
-              style: "1",
-              locale: "en",
-              toolbar_bg: "#f1f3f6",
-              enable_publishing: false,
-              withdateranges: true,
-              hide_side_toolbar: false,
-              allow_symbol_change: true,
-              details: true,
-              watchlist: [
-                "BINANCE:BTCUSD",
-                "BINANCE:POLYXBTC",
-                "BINANCEUS:POLYXUSD",
-              ],
-              hotlist: true,
-              calendar: true,
-              // width: "100%",
-              // height: 480,
-              symbol: query + "USD",
-            }}
-          /> */}
 
           {/* <TickerTape
             widgetPropsAny={{
@@ -252,14 +225,7 @@ class Dashboard extends React.Component {
             // ],
           }}
         /> */}
-        <div className='barRequest'>
-          <input
-            placeholder='Search for a symbol'
-            ref={(input) => (this.search = input)}
-            onChange={this.handleInputChange}
-            className='dataRequest'
-          />
-        </div>
+
         {/* <button
           style={{ marginTop: 40, marginBottom: 40 }}
           onClick={this.loadChartData}
@@ -275,8 +241,41 @@ class Dashboard extends React.Component {
               symbol: query + "USD",
             }}
           />
+          {/* <AdvancedChart
+            widgetPropsAny={{
+              // symbol: "COINBASE:BTCUSD",
+              interval: "60",
+              timezone: "Etc/UTC",
+              theme: "dark",
+              style: "1",
+              locale: "en",
+              // toolbar_bg: "#f1f3f6",
+              enable_publishing: false,
+              withdateranges: false,
+              hide_side_toolbar: true,
+              allow_symbol_change: true,
+              details: false,
+              watchlist: [
+                "BINANCE:BTCUSD",
+                "BINANCE:POLYXBTC",
+                "BINANCEUS:POLYXUSD",
+              ],
+              hotlist: false,
+              calendar: false,
+              height: 200,
+              symbol: query + "USD",
+              width: 360,
+            }}
+          /> */}
         </div>
-
+        <div className='barRequest'>
+          <input
+            placeholder='Search for a symbol'
+            ref={(input) => (this.search = input)}
+            onChange={this.handleInputChange}
+            className='dataRequest'
+          />
+        </div>
         {/* <CryptocurrencyMarket
           widgetProps={{
             isTransparent: true,
