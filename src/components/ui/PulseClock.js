@@ -148,7 +148,7 @@ class Dashboard extends React.Component {
               isTransparent: true,
               interval: "1D",
               // width: "100%",
-              width: 362,
+              width: 372,
               // height: 80,
               symbol: query + "USD",
             }}
