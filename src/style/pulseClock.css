@@ -1,6 +1,8 @@
 .charty {
   /* width: 380px; */
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   /* border: 1px solid rgb(119, 119, 119); */
   /* margin-left: auto; */
@@ -8,15 +10,23 @@
 }
 
 .achart {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: -34px 0 60px 0;
+  z-index: -1;
+
+  display: flex;
+  justify-content: center;
+  /* max-width: 960px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 
 .cchart {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-top: -54px; */
+  display: flex;
+  justify-content: center;
+  /* max-width: 960px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 
 /* .taChart { */
@@ -26,13 +36,7 @@
 /* justify-content: center; */
 /* } */
 
-/* .chart-data {
-  color: white;
-} */
-
 .dataRequest {
-  /* color: rgb(255, 255, 255); */
-  /* width: 300px; */
   height: 46px;
   border: 1px solid rgb(119, 119, 119);
   border-radius: 25px;
@@ -40,29 +44,15 @@
 }
 
 .barRequest {
-  margin: 30px 0px;
-  /* margin-bottom: 10px; */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 20px 0;
 }
 
 .btnRequest {
   width: 200px;
 }
 
-@media (max-width: 480px) {
-  .barRequest {
-    justify-content: center;
-    align-items: center;
-    /* width: 428px; */
-    margin-top: -38px;
-  }
-  .dataRequest {
-    margin: 20px 0;
-  }
-}
+/* @media (max-width: 480px) { */
+/* .dataRequest { */
+/* margin: 20px 0; */
+/* } */
+/* } */

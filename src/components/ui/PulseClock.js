@@ -4,8 +4,8 @@ import "../../style/pulseClock.css";
 // import { CRYPTO_COMPARE } from "../utils/keys";
 import {
   //   TradingViewEmbed,
-  // MiniChart,
-  AdvancedChart,
+  MiniChart,
+  // AdvancedChart,
   // TickerTape,
   TechnicalAnalysis,
   // CryptocurrencyMarket,
@@ -102,41 +102,15 @@ class Dashboard extends React.Component {
               // interval: "1D",
               // theme: "dark",
               isTransparent: true,
-              // autosize: true,
+              autosize: true,
               // width: "100%",
-              width: 375,
+              width: 371,
               symbol: query + "USD",
             }}
           />
           {/* ) : (
             "BTC"
           )} */}
-        </div>
-
-        <div className='barRequest'>
-          {/* <MiniChart
-            widgetPropsAny={{
-              isTransparent: true,
-              interval: "1D",
-              // width: "100%",
-              height: 80,
-              symbol: query + "USD",
-            }}
-            // key={x.x}
-            // time={x.x}
-            // symbol={x.key}
-            // active_addresses={x.y}
-            // average_transaction_value={x.average_transaction_value}
-            // current_supply={x.current_supply}
-            // transaction_count={x.transaction_count}
-            // transaction_count_all_time={x.transaction_count_all_time}
-          /> */}
-          <input
-            placeholder='Search for a symbol'
-            ref={(input) => (this.search = input)}
-            onChange={this.handleInputChange}
-            className='dataRequest'
-          />
         </div>
 
         {/* {query.length > 2 ? (
@@ -169,8 +143,26 @@ class Dashboard extends React.Component {
         {/* </div> */}
 
         <div className='achart'>
+          <MiniChart
+            widgetPropsAny={{
+              isTransparent: true,
+              interval: "1D",
+              // width: "100%",
+              width: 362,
+              // height: 80,
+              symbol: query + "USD",
+            }}
+            // key={x.x}
+            // time={x.x}
+            // symbol={x.key}
+            // active_addresses={x.y}
+            // average_transaction_value={x.average_transaction_value}
+            // current_supply={x.current_supply}
+            // transaction_count={x.transaction_count}
+            // transaction_count_all_time={x.transaction_count_all_time}
+          />
           {/* {query.length > 2 ? ( */}
-          <AdvancedChart
+          {/* <AdvancedChart
             widgetPropsAny={{
               // width: "100%",
               // symbol: "COINBASE:BTCUSD",
@@ -196,7 +188,7 @@ class Dashboard extends React.Component {
               // height: 480,
               symbol: query + "USD",
             }}
-          />
+          /> */}
 
           {/* <TickerTape
             widgetPropsAny={{
@@ -260,19 +252,26 @@ class Dashboard extends React.Component {
             // ],
           }}
         /> */}
-
-        <button
+        <div className='barRequest'>
+          <input
+            placeholder='Search for a symbol'
+            ref={(input) => (this.search = input)}
+            onChange={this.handleInputChange}
+            className='dataRequest'
+          />
+        </div>
+        {/* <button
           style={{ marginTop: 40, marginBottom: 40 }}
           onClick={this.loadChartData}
           className='btnRequest'>
           Refresh
-        </button>
+        </button> */}
         <div className='cchart'>
           <CompanyProfile
             widgetPropsAny={{
               isTransparent: true,
               height: "auto",
-              width: "100%",
+              width: 375,
               symbol: query + "USD",
             }}
           />
