@@ -5,7 +5,7 @@ import "../../style/pulseClock.css";
 import {
   //   TradingViewEmbed,
   MiniChart,
-  AdvancedChart,
+  // AdvancedChart,
   // TickerTape,
   TechnicalAnalysis,
   // CryptocurrencyMarket,
