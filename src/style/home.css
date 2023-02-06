@@ -42,6 +42,10 @@
   text-shadow: 1px 1px 0px #000000, -1px -1px 0px #000000;
   letter-spacing: 0.2rem;
 }
+
+.title h4:hover {
+  color: #ffffff;
+}
 .home-card {
   display: flex;
   flex-direction: column;
@@ -85,10 +89,10 @@
     rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset;
-  border-radius: 18px;
+  border-radius: 48px;
 }
 .p-content:hover {
-  /* color: white; */
+  color: #c3ffeb;
   /* transform: scale(1.05); */
   /* line-height: 1.5; */
   /* letter-spacing: 0.1em; */
