@@ -1,8 +1,12 @@
 .subscribe {
   margin-top: 120px;
   /* height: 300px; */
-  width: 360px;
+  /* width: 340px; */
   /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .subscribe form {
   display: flex;
@@ -16,30 +20,34 @@
   border: none;
   border-radius: 8px;
   height: 48px;
-  /* width: 242px; */
-  /* padding: 10px; */
+  padding: 10px;
 }
-.subscribe label {
+/* .subscribe label {
   font-size: calc(14px + 0.3vmin);
   letter-spacing: 0.1em;
   color: #f30b0beb;
   padding-left: 10px;
+} */
+.subscribe p {
+  width: 300px;
 }
-
 .subscribe button {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .share-icon {
-  color: #6ddbb6;
-  font-size: 36px;
+  /* color: #6ddbb6; */
   border: none;
-  height: 60px;
+  /* width: 100px; */
+  /* height: 60px; */
+}
+.share-icon svg {
+  color: #6ddbb6;
+  width: 46px;
+  height: 46px;
   cursor: pointer;
 }
-
-.share-icon:hover {
-  border: none;
+.share-icon svg:hover {
   color: white;
 }
 /* .Error {

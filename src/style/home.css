@@ -52,7 +52,7 @@
 }
 .card {
   margin: 20px 0;
-  border: 1px solid #6ddbb6;
+  border: 2px solid #000000;
   cursor: pointer;
   transition: all 0.5s;
   display: flex;
@@ -79,9 +79,8 @@
   height: auto;
   /* background-color: #00000000; */
   padding: 46px;
-  border: 1px solid #6d6d6d;
+  border: 2px solid #2c2c2c;
   letter-spacing: 0.1rem;
-
   box-shadow: 4px 0px 20px #61fbdf89, -4px 0px 100px #61fbe689,
     rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
@@ -120,7 +119,7 @@
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 #6ddbb600;
+    box-shadow: 0 0 0 0 #000000;
     /* border: #000000 2px solid; */
   }
   50% {
@@ -137,8 +136,7 @@
 }
 .pulse-print:hover {
   animation: none;
-  border: #6ddbb6 1px solid;
-
+  /* border: #ff0000 1px solid; */
   /* border: none; */
 }
 
