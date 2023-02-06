@@ -62,7 +62,7 @@ export default function Login() {
           <button
             type='submit'
             disabled={email === 0 || status === "submitting"}>
-            Submit
+            LOGIN
           </button>
         </div>
         {error && (

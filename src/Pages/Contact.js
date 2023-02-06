@@ -18,7 +18,7 @@ const Contact = () => {
       </h2>
       <div className='contact-wrapper'>
         <div className='contact'>
-          <h4>Email Us</h4>
+          <h4>Contact Us</h4>
           <div className='alert'>Your message has been sent</div>
           <form
             id='contactForm'

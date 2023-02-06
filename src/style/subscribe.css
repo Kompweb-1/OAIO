@@ -14,20 +14,21 @@
   align-items: center;
   justify-content: center;
 }
-.subscribe input {
+/* .subscribe input {
   font-size: calc(16px + 0.5vmin);
   background: rgb(221, 221, 221);
   border: none;
   border-radius: 8px;
   height: 48px;
   padding: 10px;
-}
+} */
 /* .subscribe label {
   font-size: calc(14px + 0.3vmin);
   letter-spacing: 0.1em;
   color: #f30b0beb;
   padding-left: 10px;
 } */
+
 .subscribe p {
   width: 300px;
 }
