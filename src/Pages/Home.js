@@ -16,10 +16,14 @@ function App() {
       <div className='home'>
         <div className='title '>
           <h1>
-            A Simple <br />
+            <span>A Simple </span>
+            <span>Application For </span>
+            <span>Your Investment </span>
+            <span>Options </span>
+            {/* A Simple <br />
             Application For
             <br /> Your Investment <br />
-            Options
+            Options */}
           </h1>
           <header className='App-body'>
             <div className='home-card'>
