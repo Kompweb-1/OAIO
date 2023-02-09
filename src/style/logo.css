@@ -43,8 +43,8 @@
 }
 
 em.planet {
-  /* -webkit-animation: planet-rotate 2s linear infinite; */
-  animation: planet-rotate 3s linear infinite;
+  /* -webkit-animation: planet-rotate 5s linear infinite; */
+  animation: planet-rotate 10s linear infinite;
 }
 
 /* em.planet::before {
@@ -59,21 +59,22 @@ em.planet {
 } */
 
 em.planet.left {
-  /* transform-origin: 6.5vmin 2vmin; */
+  transform-origin: 6.8vmin 1.6vmin;
   border-radius: 50%;
   z-index: 1;
-  /* background: linear-gradient(225deg, #000000, #88ffe3); */
+  /* box-shadow: 0px -2px 10px #000000, 0px 2px 2px #6ddbb6; */
+  background: linear-gradient(180deg, #02ba0500, #00000000, #00000000, #02ba05);
   /* box-shadow: -1px 2px 12px #6ddbb6, 1px -2px 12px #91fff2; */
-  box-shadow: 0px 6px 4px #00ff2a;
+  box-shadow: 0px 2px 4px #13ba00;
 }
 
 em.planet.right {
-  /* transform-origin: -3.4vmin 1.4vmin; */
+  transform-origin: -3.4vmin 1.6vmin;
   border-radius: 50%;
   z-index: 1;
-  /* background: linear-gradient(225deg, #72e6bf, #88ffe3); */
-  /* box-shadow: -1px 2px 12px #6ddbb6, 1px -2px 12px #91fff2; */
-  box-shadow: 0px -6px 4px #fe0000;
+  /* box-shadow: 0px 2px 10px #00000000, 0px -2px 2px #6ddbb6; */
+  background: linear-gradient(180deg, #fe0000, #00000000, #00000000, #fe000000);
+  box-shadow: 0px -2px 4px #fe0000;
 }
 
 /* .right {

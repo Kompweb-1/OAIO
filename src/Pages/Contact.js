@@ -1,10 +1,11 @@
 import React from "react";
 import "../style/contact.css";
 
-const Contact = () => {
+const Contact = (values) => {
   function submitForm(e) {
     e.preventDefault();
-    console.log(123);
+    // console.log(123);
+    console.log(values);
   }
 
   // const onFinish = (values) => {
