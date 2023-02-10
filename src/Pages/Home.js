@@ -56,7 +56,7 @@ function App() {
           <p className='p-content pulse'>
             We supply a series <br />
             of A.I. principles and practical patterns connected with high
-            quality algebric algorithmically resources to help users manage
+            quality algebraic algorithmically resources to help users manage
             their investments more efficiently
           </p>
         </div>
