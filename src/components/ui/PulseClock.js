@@ -148,7 +148,7 @@ class Dashboard extends React.Component {
               isTransparent: true,
               interval: "1D",
               // width: "100%",
-              width: 360,
+              width: 358,
               // height: 80,
               symbol: query + "USD",
             }}
@@ -226,18 +226,12 @@ class Dashboard extends React.Component {
           }}
         /> */}
 
-        {/* <button
-          style={{ marginTop: 40, marginBottom: 40 }}
-          onClick={this.loadChartData}
-          className='btnRequest'>
-          Refresh
-        </button> */}
         <div className='cchart'>
           <CompanyProfile
             widgetPropsAny={{
               isTransparent: true,
               height: "auto",
-              width: 375,
+              width: 372,
               symbol: query + "USD",
             }}
           />
@@ -276,6 +270,12 @@ class Dashboard extends React.Component {
             className='dataRequest'
           />
         </div>
+        <button
+          style={{ marginTop: 40, marginBottom: 40 }}
+          onClick={this.loadChartData}
+          className='btnRequest'>
+          Refresh
+        </button>
         {/* <CryptocurrencyMarket
           widgetProps={{
             isTransparent: true,
@@ -294,64 +294,5 @@ class Dashboard extends React.Component {
     );
   }
 }
-
-// const Chart = (props) => {
-//   return (
-// <div>
-
-/* <div className='chart'>
-        <p className='chart-data' key={props.time}>
-          {"time" + props.time}
-        </p>
-        <p className='chart-data' key={props.active_addresses}>
-          {"active addresses" + props.active_addresses}
-        </p>
-        <p className='chart-data'>{moment(props.time * 1000).format("L")}</p>
-        <p className='chart-data'>
-          {"Average Transaction " + props.average_transaction_value}
-        </p>
-        <p className='chart-data'>
-          {"Active Addresses " + props.active_addresses}
-        </p>
-        <p className='chart-data'>{"Current Supply " + props.current_supply}</p>
-        <p className='chart-data'>
-          {"Transaction Count " + props.transaction_count}
-        </p>
-        <p className='chart-data'>
-          {"Transaction Count All Time " + props.transaction_count_all_time}
-        </p>
-      </div> */
-
-/* </div> */
-
-//   );
-// };
-
-// const Leader = (props) => {
-//   return (
-//     <div className='leaderItem'>
-//       <a href={props.url} target='#'>
-//         <img src={props.logo} alt={props.symbol} className='logo' />
-//       </a>
-//       <p className='leaderText'>{props.symbol}</p>
-//       <p className='leaderText'>{props.price}</p>
-//     </div>
-//   );
-// };
-
-// const HoverHint = ({ active, data, query, symbol }) => (
-//   <div className={`nonActive ${active ? "active" : ""}`}>
-//     <p className='hoverData'>
-//       {data.length > 1
-//         ? query
-//         : symbol.toUpperCase() +
-//           "  - Raw Averaged Volume (Transactions * Average Value $USD)"}
-//     </p>
-//     <p className='hoverData'>
-//       {data.length < 1 ? "" : data.time + " - " + formatter.format(data.price)}{" "}
-//     </p>
-//     {/* <p className="hoverData">{data.length > 1 ? "Number of Addresses" + data.price : data.price}</p> */}
-//   </div>
-// );
 
 export default Dashboard;
