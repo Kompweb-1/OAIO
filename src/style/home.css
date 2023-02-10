@@ -331,7 +331,7 @@ span:nth-child(18) {
     text-shadow: 0 0 2px rgb(0, 0, 0);
   }
   .p-content {
-    width: 320px;
-    padding: 40px 30px;
+    width: 300px;
+    padding: 40px 26px;
   }
 }
