@@ -165,25 +165,28 @@ h3 {
 }
 h4 {
   color: #6ddbb6;
-  font-size: 0.9em;
+  font-size: 0.6em;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  font-weight: 400;
 }
 h5 {
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #6ddbb6;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.4em;
   text-transform: uppercase;
 }
 h6 {
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   color: #d9d9d9;
   letter-spacing: 0.1em;
+  font-weight: 200;
 }
 p {
-  font-size: 1.05rem;
+  font-size: 0.8rem;
   color: #d9d9d9;
   line-height: 1.5em;
+  font-weight: 400;
 }
 
 input {

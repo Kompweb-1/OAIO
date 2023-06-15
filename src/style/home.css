@@ -118,6 +118,7 @@ span:nth-child(18) {
   background-color: #ff000000;
   text-shadow: 1px 1px 0px #000000, -1px -1px 0px #000000;
   letter-spacing: 0.2rem;
+  font-size: 0.8rem;
 }
 
 .title h4:hover {
@@ -127,6 +128,7 @@ span:nth-child(18) {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 330px;
 }
 .home-card h5 {
   background-color: #00000000;
